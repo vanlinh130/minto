@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./../../build/tailwind.css" />
+        <link rel="stylesheet" href="build/app.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="./../../assets/css/style.css" />
+    </head>
+    <body>
+        <div class="">
+            <div class="">
+                <!-- header -->
+                <header class="w-full fixed top-0 left-0 right-0 z-10 header-nav-top">
+                    <div class="container mx-auto">
+                        <div
+                            class="flex items-center max-sm:flex-col justify-between max-sm:gap-1 mt-5 md:mt-6 lg:mt-8 mb-[15px] md:mb-[88px] lg:mb-[205px]"
+                        >
+                            <div class="flex items-center justify-center">
+                                <button
+                                    class="py-1 px-4 rounded hover:bg-[#34CEBC] text-[#ffffff] hover:text-[#02052E] js-solution"
+                                >
+                                    <span
+                                        class="text-[24px] font-normal leading-[33.6px] cursor-pointer hover:opacity-90 max-sm:text-[16px]"
+                                        >SOLUTION</span
+                                    >
+                                </button>
+                            </div>
+                            <div class="flex items-center justify-center cursor-pointer">
+                                <a href="/" class=""><img src="../../assets/img/logo.png" /></a>
+                            </div>
+                            <div class="flex items-center justify-center">
+                                <button
+                                    class="py-1 px-4 rounded hover:bg-[#34CEBC] text-[#ffffff] hover:text-[#02052E] js-about"
+                                >
+                                    <span
+                                        class="text-[24px] font-normal leading-[33.6px] cursor-pointer hover:opacity-90 max-sm:text-[16px]"
+                                        >ABOUT</span
+                                    >
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+
+                <!-- Drop menu v1 -->
+                <div
+                    class="bg-[#02052E] min-h-screen w-full fixed top-0 left-0 right-0 z-50 py-16 header-nav solution-modal js-solution-modal active"
+                >
+                    <div class="w-full px-[20px] md:px-[30px] lg:px-0 js-solution-modal-container">
+                        <div class="container mx-auto">
+                            <div class="flex items-end justify-start">
+                                <span class="text-[#ffffff] text-[32px] font-medium leading-[40px] tracking-[10%]"
+                                    >Solution.</span
+                                >
+                            </div>
+                        </div>
+                        <div class="border-b-[1px] border-b-[#F2F3FF] my-4"></div>
+                        <ul class="w-full">
+                            <li class="text-[#34CEBC] hover:bg-[#34CEBC] hover:text-[#02052E] cursor-pointer">
+                                <div class="container mx-auto">
+                                    <a
+                                        href="/pages/solutions/character-marrketing.html"
+                                        class="text-[24px] md:text-[32px] lg:text-[46px] font-normal leading-[48.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                                    >
+                                        CHARACTER MARKETTING
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="text-[#34CEBC] hover:bg-[#34CEBC] hover:text-[#02052E] cursor-pointer+">
+                                <div class="container mx-auto">
+                                    <a
+                                        href="/pages/solutions/character-licensing.html"
+                                        class="text-[24px] md:text-[32px] lg:text-[46px] font-normal leading-[48.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                                    >
+                                        CHARACTER LICENSING
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="text-[#34CEBC] hover:bg-[#34CEBC] hover:text-[#02052E] cursor-pointer+">
+                                <div class="container mx-auto">
+                                    <a
+                                        href="/pages/solutions/creative-branding.html"
+                                        class="text-[24px] md:text-[32px] lg:text-[46px] font-normal leading-[48.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                                    >
+                                        CREATIVE & BRANDING
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="text-[#34CEBC] hover:bg-[#34CEBC] hover:text-[#02052E] cursor-pointer+">
+                                <div class="container mx-auto">
+                                    <a
+                                        href="/pages/solutions/digital-stagery.html"
+                                        class="text-[24px] md:text-[32px] lg:text-[46px] font-normal leading-[48.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                                    >
+                                        DIGITAL & STRATEGY
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="text-[#34CEBC] hover:bg-[#34CEBC] hover:text-[#02052E] cursor-pointer+">
+                                <div class="container mx-auto">
+                                    <a
+                                        href="/pages/solutions/event-production.html"
+                                        class="text-[24px] md:text-[32px] lg:text-[46px] font-normal leading-[48.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                                    >
+                                        EVENT & PRODUCTION
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="container mx-auto">
+                            <div
+                                class="bg-[#02052E] text-[#ffffff] cursor-pointer p-[19px] float-right hover:opacity-90 js-solution-modal-close"
+                            >
+                                <div class="flex items-center gap-4">
+                                    <img
+                                        src="../../assets/img/icon/square_arrow_left_white.png"
+                                        alt=""
+                                        class="w-[18px] md:w-[22px] lg:w-[29.34px] h-[27px] md:h-[37px] lg:h-[47px]"
+                                    />
+                                    <span
+                                        class="text-[24px] md:text-[32px] lg:text-[46px] font-medium leading-[40px] tracking-[10%]"
+                                        >Close</span
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Drop menu v2 -->
+                <div
+                    class="bg-[#02052E] w-full min-h-screen fixed top-0 left-0 right-0 z-50 py-16 header-nav about-modal js-about-modal"
+                >
+                    <div class="w-full px-[20px] md:px-[30px] lg:px-0 js-about-modal-container">
+                        <div class="container mx-auto">
+                            <div class="flex items-end justify-end">
+                                <span class="text-[#ffffff] text-[32px] font-medium leading-[40px] tracking-[10%]"
+                                    >About us.</span
+                                >
+                            </div>
+                        </div>
+                        <div class="border-b-[1px] border-b-[#F2F3FF] my-4"></div>
+                        <ul class="w-full">
+                            <li class="text-[#34CEBC] hover:bg-[#34CEBC] hover:text-[#02052E] cursor-pointer+">
+                                <div class="container mx-auto text-end">
+                                    <a
+                                        href="/pages/abouts/about.html"
+                                        class="text-[24px] md:text-[32px] lg:text-[46px] font-normal leading-[48.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                                    >
+                                        ABOUT MINTO
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="text-[#34CEBC] hover:bg-[#34CEBC] hover:text-[#02052E] cursor-pointer+">
+                                <div class="container mx-auto text-end">
+                                    <a
+                                        href="/pages/abouts/team.html"
+                                        class="text-[24px] md:text-[32px] lg:text-[46px] font-normal leading-[48.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                                    >
+                                        TEAM
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="text-[#34CEBC] hover:bg-[#34CEBC] hover:text-[#02052E] cursor-pointer+">
+                                <div class="container mx-auto text-end">
+                                    <a
+                                        href="/pages/abouts/news.html"
+                                        class="text-[24px] md:text-[32px] lg:text-[46px] font-normal leading-[48.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                                    >
+                                        NEWS & IDEA
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="text-[#34CEBC] hover:bg-[#34CEBC] hover:text-[#02052E] cursor-pointer+">
+                                <div class="container mx-auto text-end">
+                                    <a
+                                        href="/pages/abouts/carrer.html"
+                                        class="text-[24px] md:text-[32px] lg:text-[46px] font-normal leading-[48.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                                    >
+                                        CARRER
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="text-[#34CEBC] hover:bg-[#34CEBC] hover:text-[#02052E] cursor-pointer+">
+                                <div class="container mx-auto text-end">
+                                    <a
+                                        href="/pages/abouts/artist-brand.html"
+                                        class="text-[24px] md:text-[32px] lg:text-[46px] font-normal leading-[48.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                                    >
+                                        ARTIST & BRAND
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="text-[#34CEBC] hover:bg-[#34CEBC] hover:text-[#02052E] cursor-pointer+">
+                                <div class="container mx-auto text-end">
+                                    <a
+                                        href="/pages/abouts/contact.html"
+                                        class="text-[24px] md:text-[32px] lg:text-[46px] font-normal leading-[48.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                                    >
+                                        CONTACT
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="container mx-auto">
+                            <div
+                                class="bg-[#02052E] cursor-pointer p-[19px] text-[#ffffff] hover:opacity-90 js-about-modal-close"
+                            >
+                                <div class="flex items-center gap-4">
+                                    <span
+                                        class="text-[24px] md:text-[32px] lg:text-[46px] font-medium leading-[40px] tracking-[10%]"
+                                        >Close</span
+                                    >
+                                    <img
+                                        src="../../assets/img/icon/square_arrow_right_white.png"
+                                        alt=""
+                                        class="w-[18px] md:w-[22px] lg:w-[29.34px] h-[27px] md:h-[37px] lg:h-[47px]"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- News releases -->
+            <div class="bg-[#02052E] container mx-auto pt-[265px] px-5 md:px-5 lg:px-0">
+                <div class="mx-auto font-bold text-[#ffffff] py-5 bg-[#02052E] text-[32px] md:text-5xl lg:text-[64px]">
+                    News releases
+                </div>
+            </div>
+
+            <div class="w-full bg-[#ffffff]">
+                <!-- category -->
+                <div class="container mx-auto px-5 md:px-5 lg:px-0">
+                    <div class="mx-auto pt-10 grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+                        <div class="">
+                            <div class="text-[#02052E] font-bold text-[20px] leading-7 pb-4">Category</div>
+                            <div class="relative">
+                                <input
+                                    type="text"
+                                    placeholder="Industry News"
+                                    class="text-[#9A9CAC] bg-[#F2F3FF] w-full font-normal text-[16px] py-[14px] px-3 flex justify-between outline-none"
+                                />
+
+                                <i class="fa-solid fa-arrow-right absolute top-5 right-4 text-[#9A9CAC]"></i>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="text-[#02052E] font-bold text-[20px] leading-7 pb-4">Sort by</div>
+                            <div class="relative">
+                                <input
+                                    type="text"
+                                    placeholder="Most Viewed"
+                                    class="text-[#9A9CAC] bg-[#F2F3FF] w-full font-normal text-[16px] py-[14px] px-3 flex justify-between outline-none"
+                                />
+
+                                <i class="fa-solid fa-arrow-right absolute top-5 right-4 text-[#9A9CAC]"></i>
+                            </div>
+                        </div>
+
+                        <div class="">
+                            <div class="text-[#02052E] font-bold text-[20px] leading-7 pb-4">Year</div>
+                            <div class="relative">
+                                <input
+                                    type="text"
+                                    placeholder="2022"
+                                    class="text-[#9A9CAC] bg-[#F2F3FF] w-full font-normal text-[16px] py-[14px] px-3 flex justify-between outline-none"
+                                />
+
+                                <i class="fa-solid fa-arrow-right absolute top-5 right-4 text-[#9A9CAC]"></i>
+                            </div>
+                        </div>
+
+                        <div class="flex items-end">
+                            <div class="w-full">
+                                <button
+                                    class="bg-[#34CEBC] text-[#02052E] text-center text-[16px] font-semibold py-4 leading-[19.05px] w-full"
+                                >
+                                    Apply
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- image -->
+                <div class="container mx-auto">
+                    <div class="grid grid-cols-1 gap-6 mt-20">
+                        <div class="grid gap-6 grid-cols-1 md:grid-cols-4 lg:grid-cols-6">
+                            <div class="md:col-span-2 lg:col-span-4 relative">
+                                <div class="">
+                                    <img class="w-full h-full" src="./../../assets/img/Rectangle1330.png" alt="" />
+                                </div>
+                                <p class="absolute bottom-4 left-4 font-semibold text-[20px] leading-7 text-[#ffffff]">
+                                    MASCOT MARKETING: Sustainable direction in brand <br />
+                                    communication
+                                </p>
+                                <span
+                                    class="absolute top-0 right-0 bg-[#34CEBC] font-semibold text-[16px] leading-[19.5px] text-[#02052E] py-2.5 px-7"
+                                >
+                                    May 24,2023
+                                </span>
+                            </div>
+                            <div class="md:col-span-2 lg:col-span-2 relative">
+                                <div>
+                                    <img class="w-full h-full" src="./../../assets/img/Rectangle1409.png" alt="" />
+                                </div>
+
+                                <p class="absolute bottom-4 left-4 font-semibold text-[20px] leading-7 text-[#ffffff]">
+                                    Create brand identity with <br />
+                                    the vivid language of <br />
+                                    Character Marketing
+                                </p>
+                                <span
+                                    class="absolute top-0 right-0 bg-[#34CEBC] font-semibold text-[16px] leading-[19.5px] text-[#02052E] py-2.5 px-7"
+                                >
+                                    May 24,2023
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-6 gap-6">
+                            <div class="col-span-4 relative">
+                                <div class="">
+                                    <img class="w-full" src="./../../assets/img/Rectangle1330.png" alt="" />
+                                </div>
+                                <p class="absolute bottom-4 left-4 font-semibold text-[20px] leading-7 text-[#ffffff]">
+                                    MASCOT MARKETING: Sustainable direction in brand <br />
+                                    communication
+                                </p>
+                                <span
+                                    class="absolute top-0 right-0 bg-[#34CEBC] font-semibold text-[16px] leading-[19.5px] text-[#02052E] py-2.5 px-7"
+                                >
+                                    May 24,2023
+                                </span>
+                            </div>
+                            <div class="col-span-2 relative">
+                                <div>
+                                    <img class="w-full h-full" src="./../../assets/img/Rectangle1409.png" alt="" />
+                                </div>
+
+                                <p class="absolute bottom-4 left-4 font-semibold text-[20px] leading-7 text-[#ffffff]">
+                                    Create brand identity with <br />
+                                    the vivid language of <br />
+                                    Character Marketing
+                                </p>
+                                <span
+                                    class="absolute top-0 right-0 bg-[#34CEBC] font-semibold text-[16px] leading-[19.5px] text-[#02052E] py-2.5 px-7"
+                                >
+                                    May 24,2023
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-6 gap-6">
+                            <div class="col-span-2 relative">
+                                <div>
+                                    <img class="w-full h-full" src="./../../assets/img/Rectangle1409.png" alt="" />
+                                </div>
+
+                                <p class="absolute bottom-4 left-4 font-semibold text-[20px] leading-7 text-[#ffffff]">
+                                    Create brand identity with <br />
+                                    the vivid language of <br />
+                                    Character Marketing
+                                </p>
+                                <span
+                                    class="absolute top-0 right-0 bg-[#34CEBC] font-semibold text-[16px] leading-[19.5px] text-[#02052E] py-2.5 px-7"
+                                >
+                                    May 24,2023
+                                </span>
+                            </div>
+
+                            <div class="col-span-4 relative">
+                                <div class="">
+                                    <img class="w-full" src="./../../assets/img/Rectangle1330.png" alt="" />
+                                </div>
+                                <p class="absolute bottom-4 left-4 font-semibold text-[20px] leading-7 text-[#ffffff]">
+                                    MASCOT MARKETING: Sustainable direction in brand <br />
+                                    communication
+                                </p>
+                                <span
+                                    class="absolute top-0 right-0 bg-[#34CEBC] font-semibold text-[16px] leading-[19.5px] text-[#02052E] py-2.5 px-7"
+                                >
+                                    May 24,2023
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="w-[150px] grid grid-cols-4 gap-3 mx-auto">
+                            <div class="flex justify-center items-center">
+                                <i class="fa-solid fa-arrow-left"></i>
+                            </div>
+                            <div class="bg-[#34CEBC] px-[6px] py-[6px] text-center text-[#ffffff]">1</div>
+                            <div class="bg-[#34CEBC] px-[6px] py-[6px] text-center text-[#ffffff]">2</div>
+
+                            <div class="flex justify-center items-center">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container mx-auto">
+                    <!-- Receive Our Latest Newsletter & Updates -->
+                    <div class="py-20 flex flex-col gap-[14px]">
+                        <div class="font-normal text-2xl text-[#34CEBC] text-center leading-[33.6px]">
+                            Let’s Connect
+                        </div>
+                        <div class="font-bold text-7xl text-center text-[#02052E] leading-[78.02px]">
+                            Receive Our Latest Newsletter & Updates
+                        </div>
+                        <div class="font-normal text-lg text-center leading-6 text-[#494B62]">
+                            If you want to build a brand mascot and a comprehensive marketing plan, leave your
+                            information below.<br />
+                            Minto will contact the consultant as soon as possible
+                        </div>
+                    </div>
+
+                    <div class="mx-auto grid grid-cols-2 py-10">
+                        <div class="flex items-end">
+                            <div class="flex flex-col gap-4">
+                                <div class="flex justify-center">
+                                    <div class="w-[391px] h-[269.8px]">
+                                        <img src="./../../assets/img/iconBearBlack.png" alt="" class="w-full h-full" />
+                                    </div>
+                                </div>
+                                <div class="flex flex-col gap-4">
+                                    <span class="font-bold text-[#34CEBC] text-3xl leading-10"
+                                        >Minto (Vietnam) Co., Ltd.</span
+                                    >
+                                    <div class="flex gap-4">
+                                        <i class="fa-solid fa-phone-volume text-[#02052E]"></i>
+                                        <p class="font-normal text-lg leading-6 text-[#02052E]">
+                                            Ground floor, Thien Son building, 5 Nguyen Gia Thieu,<br />
+                                            Vo Thi Sau ward, district 3, Ho Chi Minh, Vietnam
+                                        </p>
+                                    </div>
+
+                                    <div class="flex gap-4">
+                                        <i class="fa-sharp fa-solid fa-location-dot text-[#02052E]"> </i>
+                                        <p class="font-normal text-lg leading-6 text-[#02052E]">84-909-868-915</p>
+                                    </div>
+
+                                    <div class="flex gap-4">
+                                        <i class="fa-thin fa-envelope text-[#02052E]"></i>
+                                        <p class="font-normal text-lg leading-6 text-[#02052E]">info_vn@minto-inc.jp</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <form action="" class="flex flex-col justify-end">
+                            <div class="">
+                                <div class="mb-6 flex flex-col gap-2">
+                                    <label for="name" class="block mb-2 text-lg font-semibold text-[#494B62] leading-4"
+                                        >Your name</label
+                                    >
+                                    <input
+                                        type="text"
+                                        id="name"
+                                        class="bg-gray-50 border-2 outline-none border-gray-300 text-gray-900 block w-full p-4"
+                                        placeholder="Jace..."
+                                        required
+                                    />
+                                </div>
+                                <div class="mb-6 flex flex-col gap-2">
+                                    <label
+                                        for="company"
+                                        class="block mb-2 text-lg font-semibold text-[#494B62] leading-4"
+                                        >Company</label
+                                    >
+                                    <input
+                                        type="text"
+                                        id="company"
+                                        class="bg-gray-50 border-2 outline-none border-gray-300 text-gray-900 block w-full p-4"
+                                        placeholder="Your company"
+                                        required
+                                    />
+                                </div>
+
+                                <div class="mb-6 flex flex-col gap-2">
+                                    <label for="email" class="block mb-2 text-lg font-semibold text-[#494B62] leading-4"
+                                        >Email</label
+                                    >
+                                    <input
+                                        type="email"
+                                        id="email"
+                                        class="bg-gray-50 border-2 outline-none border-gray-300 text-gray-900 block w-full p-4"
+                                        placeholder="Enter your mail"
+                                        required
+                                    />
+                                </div>
+
+                                <button class="text-[#02052E] text-xl bg-[#34CEBC] w-full p-3 font-semibold">
+                                    Submit
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- footer -->
+                <div class="container mx-auto py-[20px]">
+                    <div class="flex items-center justify-between max-lg:flex-col">
+                        <ul class="flex gap-[40px] max-sm:gap-6">
+                            <li
+                                class="font-normal text-[24px] max-sm:text-[16px] leading-[33.6px] text-[#02052E] hover:underline"
+                            >
+                                <a href="">Privacy Policy</a>
+                            </li>
+                            <li
+                                class="font-normal text-[24px] max-sm:text-[16px] leading-[33.6px] text-[#02052E] hover:underline"
+                            >
+                                <a href="">Cookies</a>
+                            </li>
+                        </ul>
+                        <ul class="flex gap-[40px] max-sm:gap-6">
+                            <li
+                                class="font-normal text-[24px] max-sm:text-[16px] leading-[33.6px] text-[#02052E] hover:underline"
+                            >
+                                <a href="">Subscribe</a>
+                            </li>
+                            <li
+                                class="font-normal text-[24px] max-sm:text-[16px] leading-[33.6px] text-[#02052E] hover:underline"
+                            >
+                                <a href="">Connect</a>
+                            </li>
+                            <li
+                                class="font-normal text-[24px] max-sm:text-[16px] leading-[33.6px] text-[#02052E] hover:underline"
+                            >
+                                <a href="">Work with us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="/assets/js/script.js"></script>
+    </body>
+</html>

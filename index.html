@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Home</title>
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" /> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+        <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.4.2-web/css/all.css" />
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <link rel="stylesheet" href="build/style.css" />
+    </head>
+    <body>
+        <div class="">
+            <!-- header -->
+            <header class="w-full fixed top-0 left-0 right-0 z-10 header-nav-top">
+                <div class="container mx-auto">
+                    <div
+                        class="flex items-center max-sm:flex-col justify-between max-sm:gap-1 mt-5 md:mt-6 lg:mt-8 mb-[15px] md:mb-[88px] lg:mb-[205px]"
+                    >
+                        <div class="flex items-center justify-center">
+                            <button
+                                class="py-1 px-4 rounded hover:bg-[#34CEBC] text-[#ffffff] hover:text-[#02052E] js-solution"
+                            >
+                                <span
+                                    class="text-[24px] font-normal leading-[33.6px] cursor-pointer hover:opacity-90 max-sm:text-[16px]"
+                                    >SOLUTION</span
+                                >
+                            </button>
+                        </div>
+                        <div class="flex items-center justify-center cursor-pointer">
+                            <a href="/" class=""><img src="../../assets/img/logo.png" /></a>
+                        </div>
+                        <div class="flex items-center justify-center">
+                            <button
+                                class="py-1 px-4 rounded hover:bg-[#34CEBC] text-[#ffffff] hover:text-[#02052E] js-about"
+                            >
+                                <span
+                                    class="text-[24px] font-normal leading-[33.6px] cursor-pointer hover:opacity-90 max-sm:text-[16px]"
+                                    >ABOUT</span
+                                >
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Drop menu v1 -->
+            <div
+                class="bg-[#02052E] min-h-screen w-full fixed top-0 left-0 right-0 z-50 py-16 header-nav solution-modal js-solution-modal active"
+            >
+                <div class="w-full px-[20px] md:px-[30px] lg:px-0 js-solution-modal-container">
+                    <div class="container mx-auto">
+                        <div class="flex items-end justify-start">
+                            <span class="text-[#ffffff] text-[32px] font-medium leading-[40px] tracking-[10%]"
+                                >Solution.</span
+                            >
+                        </div>
+                    </div>
+                    <div class="border-b-[1px] border-b-[#F2F3FF] my-4"></div>
+                    <ul class="w-full">
+                        <li class="text-[#34CEBC] hover:bg-[#34CEBC] hover:text-[#02052E] cursor-pointer">
+                            <div class="container mx-auto">
+                                <a
+                                    href="/pages/solutions/character-marrketing.html"
+                                    class="text-[24px] md:text-[32px] lg:text-[46px] font-normal leading-[48.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                                >
+                                    CHARACTER MARKETTING
+                                </a>
+                            </div>
+                        </li>
+                        <li class="text-[#34CEBC] hover:bg-[#34CEBC] hover:text-[#02052E] cursor-pointer+">
+                            <div class="container mx-auto">
+                                <a
+                                    href="/pages/solutions/character-licensing.html"
+                                    class="text-[24px] md:text-[32px] lg:text-[46px] font-normal leading-[48.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                                >
+                                    CHARACTER LICENSING
+                                </a>
+                            </div>
+                        </li>
+                        <li class="text-[#34CEBC] hover:bg-[#34CEBC] hover:text-[#02052E] cursor-pointer+">
+                            <div class="container mx-auto">
+                                <a
+                                    href="/pages/solutions/creative-branding.html"
+                                    class="text-[24px] md:text-[32px] lg:text-[46px] font-normal leading-[48.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                                >
+                                    CREATIVE & BRANDING
+                                </a>
+                            </div>
+                        </li>
+                        <li class="text-[#34CEBC] hover:bg-[#34CEBC] hover:text-[#02052E] cursor-pointer+">
+                            <div class="container mx-auto">
+                                <a
+                                    href="/pages/solutions/digital-stagery.html"
+                                    class="text-[24px] md:text-[32px] lg:text-[46px] font-normal leading-[48.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                                >
+                                    DIGITAL & STRATEGY
+                                </a>
+                            </div>
+                        </li>
+                        <li class="text-[#34CEBC] hover:bg-[#34CEBC] hover:text-[#02052E] cursor-pointer+">
+                            <div class="container mx-auto">
+                                <a
+                                    href="/pages/solutions/event-production.html"
+                                    class="text-[24px] md:text-[32px] lg:text-[46px] font-normal leading-[48.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                                >
+                                    EVENT & PRODUCTION
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="container mx-auto">
+                        <div
+                            class="bg-[#02052E] text-[#ffffff] cursor-pointer p-[19px] float-right hover:opacity-90 js-solution-modal-close"
+                        >
+                            <div class="flex items-center gap-4">
+                                <img
+                                    src="../../assets/img/icon/square_arrow_left_white.png"
+                                    alt=""
+                                    class="w-[18px] md:w-[22px] lg:w-[29.34px] h-[27px] md:h-[37px] lg:h-[47px]"
+                                />
+                                <span
+                                    class="text-[24px] md:text-[32px] lg:text-[46px] font-medium leading-[40px] tracking-[10%]"
+                                    >Close</span
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Drop menu v2 -->
+            <div
+                class="bg-[#02052E] w-full min-h-screen fixed top-0 left-0 right-0 z-50 py-16 header-nav about-modal js-about-modal"
+            >
+                <div class="w-full px-[20px] md:px-[30px] lg:px-0 js-about-modal-container">
+                    <div class="container mx-auto">
+                        <div class="flex items-end justify-end">
+                            <span class="text-[#ffffff] text-[32px] font-medium leading-[40px] tracking-[10%]"
+                                >About us.</span
+                            >
+                        </div>
+                    </div>
+                    <div class="border-b-[1px] border-b-[#F2F3FF] my-4"></div>
+                    <ul class="w-full">
+                        <li class="text-[#34CEBC] hover:bg-[#34CEBC] hover:text-[#02052E] cursor-pointer+">
+                            <div class="container mx-auto text-end">
+                                <a
+                                    href="/pages/abouts/about.html"
+                                    class="text-[24px] md:text-[32px] lg:text-[46px] font-normal leading-[48.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                                >
+                                    ABOUT MINTO
+                                </a>
+                            </div>
+                        </li>
+                        <li class="text-[#34CEBC] hover:bg-[#34CEBC] hover:text-[#02052E] cursor-pointer+">
+                            <div class="container mx-auto text-end">
+                                <a
+                                    href="/pages/abouts/team.html"
+                                    class="text-[24px] md:text-[32px] lg:text-[46px] font-normal leading-[48.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                                >
+                                    TEAM
+                                </a>
+                            </div>
+                        </li>
+                        <li class="text-[#34CEBC] hover:bg-[#34CEBC] hover:text-[#02052E] cursor-pointer+">
+                            <div class="container mx-auto text-end">
+                                <a
+                                    href="/pages/abouts/news.html"
+                                    class="text-[24px] md:text-[32px] lg:text-[46px] font-normal leading-[48.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                                >
+                                    NEWS & IDEA
+                                </a>
+                            </div>
+                        </li>
+                        <li class="text-[#34CEBC] hover:bg-[#34CEBC] hover:text-[#02052E] cursor-pointer+">
+                            <div class="container mx-auto text-end">
+                                <a
+                                    href="/pages/abouts/carrer.html"
+                                    class="text-[24px] md:text-[32px] lg:text-[46px] font-normal leading-[48.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                                >
+                                    CARRER
+                                </a>
+                            </div>
+                        </li>
+                        <li class="text-[#34CEBC] hover:bg-[#34CEBC] hover:text-[#02052E] cursor-pointer+">
+                            <div class="container mx-auto text-end">
+                                <a
+                                    href="/pages/abouts/artist-brand.html"
+                                    class="text-[24px] md:text-[32px] lg:text-[46px] font-normal leading-[48.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                                >
+                                    ARTIST & BRAND
+                                </a>
+                            </div>
+                        </li>
+                        <li class="text-[#34CEBC] hover:bg-[#34CEBC] hover:text-[#02052E] cursor-pointer+">
+                            <div class="container mx-auto text-end">
+                                <a
+                                    href="/pages/abouts/contact.html"
+                                    class="text-[24px] md:text-[32px] lg:text-[46px] font-normal leading-[48.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                                >
+                                    CONTACT
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="container mx-auto">
+                        <div
+                            class="bg-[#02052E] cursor-pointer p-[19px] text-[#ffffff] hover:opacity-90 js-about-modal-close"
+                        >
+                            <div class="flex items-center gap-4">
+                                <span
+                                    class="text-[24px] md:text-[32px] lg:text-[46px] font-medium leading-[40px] tracking-[10%]"
+                                    >Close</span
+                                >
+                                <img
+                                    src="../../assets/img/icon/square_arrow_right_white.png"
+                                    alt=""
+                                    class="w-[18px] md:w-[22px] lg:w-[29.34px] h-[27px] md:h-[37px] lg:h-[47px]"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-[#35CEBC]">
+            <div class="relative">
+                <div class="w-full h-auto">
+                    <img src="./assets/img/img-abouts/draw_landing1.png" alt="" class="w-full h-full" />
+                </div>
+                <div
+                    class="w-full h-[60px] md:h-[220px] lg:h-[265px] absolute bottom-[-2px] md:bottom-[-45px] lg:bottom-[-65px] left-0 right-0 header-nav-bottom"
+                ></div>
+            </div>
+
+            <div class="container mx-auto py-[40px] md:py-[40px] lg:py-[60px] px-5 md:px-5 lg:px-0">
+                <div class="flex flex-col px-5 md:px-5 lg:px-0">
+                    <div class="w-full sm:w-[90%] lg:w-[70%]">
+                        <h2
+                            class="text-[32px] md:text-[48px] lg:text-[64px] font-bold leading-[38.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                        >
+                            Pioneering the Next Big Thing in Marketing
+                        </h2>
+                    </div>
+                    <p
+                        class="text-[24px] max-sm:text-[16px] text-[#02052E] font-normal leading-[33.6px] max-sm:leading-[22.6px] my-4 md:my-8 lg:my-8"
+                    >
+                        Minto has been growing brands and businesses since 2008, started with our first character studio
+                        in Tokyo (Japan) where we proudly created one of the most downloaded characters in the world -
+                        including Usagyuuun, Betakkuma, Piyomaru, Business Fish. <br />We continue and expand that rich
+                        legacy through borderless creativity - operating, innovating, and creating at the intersection
+                        of talent and capabilities. <br />Our experts in Creative, Designing, Public Relations and
+                        Strategy work fluidly across 4 offices to realize this passion across borders.
+                    </p>
+                    <div class="m-6">
+                        <button class="flex items-center gap-3 p-4 border-[1.5px] border-[#ffffff] hover:opacity-90">
+                            <span class="text-[#ffffff] text-[16px] font-semibold leading-[19.5px]"
+                                >Get To Know Us</span
+                            >
+                            <img src="assets/img/icon/arrow_right.png" alt="" />
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- our work -->
+        <div class="container mx-auto py-[40px] md:py-[40px] lg:py-[60px]">
+            <div class="bg-[#02052E] px-5 md:px-5 lg:px-0">
+                <div class="flex items-center justify-center pb-5">
+                    <h2
+                        class="text-[#ffffff] text-[32px] md:text-[48px] lg:text-[64px] font-bold leading-[38.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                    >
+                        Our Work
+                    </h2>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 py-5">
+                    <div class="relative">
+                        <img src="assets/img/img-abouts/image_22.png" alt="" class="w-full h-full" />
+                        <div class="w-full h-full absolute top-0 flex items-center justify-center">
+                            <span
+                                class="text-[#ffffff] text-[24px] max-sm:text-[16px] font-normal leading-[33.6px] max-sm:leading-[22.6px] w-[190px] h-full flex items-center justify-center text-center"
+                                >Đa điểm chạm</span
+                            >
+                        </div>
+                    </div>
+                    <div class="relative">
+                        <img src="assets/img/img-abouts/image_21.png" alt="" class="w-full h-full" />
+                        <div class="w-full h-full absolute top-0 flex items-center justify-center">
+                            <span
+                                class="text-[#ffffff] text-[24px] max-sm:text-[16px] font-normal leading-[33.6px] max-sm:leading-[22.6px] w-[190px] h-full flex items-center justify-center text-center"
+                                >Linh vật thương hiệu</span
+                            >
+                        </div>
+                    </div>
+                    <div class="relative row-span-2">
+                        <img src="assets/img/img-abouts/image_23.png" alt="" class="w-full h-full" />
+                        <div class="w-full h-full absolute top-0 flex items-center justify-center">
+                            <span
+                                class="text-[#ffffff] text-[24px] max-sm:text-[16px] font-normal leading-[33.6px] max-sm:leading-[22.6px] w-[190px] h-full flex items-center justify-center text-center"
+                                >Character Licensing</span
+                            >
+                        </div>
+                    </div>
+                    <div class="relative">
+                        <img src="assets/img/img-abouts/image_31.png" alt="" class="w-full h-full" />
+                        <div class="w-full h-full absolute top-0 flex items-center justify-center">
+                            <span
+                                class="text-[#ffffff] text-[24px] max-sm:text-[16px] font-normal leading-[33.6px] max-sm:leading-[22.6px] w-[190px] h-full flex items-center justify-center text-center"
+                                >Xu hướng cá nhân hóa</span
+                            >
+                        </div>
+                    </div>
+                    <div class="row-span-2">
+                        <img src="assets/img/img-abouts/Rectangle_1350.png" alt="" class="w-full h-full" />
+                    </div>
+                    <div class="relative">
+                        <img src="assets/img/img-abouts/image_30.png" alt="" class="w-full h-full" />
+                        <div class="w-full h-full absolute top-0 flex items-center justify-center">
+                            <span
+                                class="text-[#ffffff] text-[24px] max-sm:text-[16px] font-normal leading-[33.6px] max-sm:leading-[22.6px] w-[190px] h-full flex items-center justify-center text-center"
+                                >Tạo liên kết cảm xúc</span
+                            >
+                        </div>
+                    </div>
+                    <div class="relative">
+                        <img src="assets/img/img-abouts/image_22_1.png" alt="" class="w-full h-full" />
+                        <div class="w-full h-full absolute top-0 flex items-center justify-center">
+                            <span
+                                class="text-[#ffffff] text-[24px] max-sm:text-[16px] font-normal leading-[33.6px] max-sm:leading-[22.6px] w-[190px] h-full flex items-center justify-center text-center"
+                                >Phát hành Sticker</span
+                            >
+                        </div>
+                    </div>
+                    <div class="relative">
+                        <img src="assets/img/img-abouts/image_28.png" alt="" class="w-full h-full" />
+                        <div class="w-full h-full absolute top-0 flex items-center justify-center">
+                            <span
+                                class="text-[#ffffff] text-[24px] max-sm:text-[16px] font-normal leading-[33.6px] max-sm:leading-[22.6px] w-[190px] h-full flex items-center justify-center text-center"
+                                >Công cụ kể chuyện hiệu quả</span
+                            >
+                        </div>
+                    </div>
+                    <div class="relative">
+                        <img src="assets/img/img-abouts/image_29.png" alt="" class="w-full h-full" />
+                        <div class="w-full h-full absolute top-0 flex items-center justify-center">
+                            <span
+                                class="text-[#ffffff] text-[24px] max-sm:text-[16px] font-normal leading-[33.6px] max-sm:leading-[22.6px] w-[190px] h-full flex items-center justify-center text-center"
+                                >Điểm ngọt ngào trong truyền thông</span
+                            >
+                        </div>
+                    </div>
+                    <div class="relative row-span-2">
+                        <img src="assets/img/img-abouts/image_23_1.png" alt="" class="w-full h-full" />
+                        <div class="w-full h-full absolute top-0 flex items-center justify-center">
+                            <span
+                                class="text-[#ffffff] text-[24px] max-sm:text-[16px] font-normal leading-[33.6px] max-sm:leading-[22.6px] w-[190px] h-full flex items-center justify-center text-center"
+                                >Giải mã Character Marketing</span
+                            >
+                        </div>
+                    </div>
+                    <div class="relative">
+                        <img src="assets/img/img-abouts/image_27.png" alt="" class="w-full h-full" />
+                        <div class="w-full h-full absolute top-0 flex items-center justify-center">
+                            <span
+                                class="text-[#ffffff] text-[24px] max-sm:text-[16px] font-normal leading-[33.6px] max-sm:leading-[22.6px] w-[190px] h-full flex items-center justify-center text-center"
+                                >Khác biệt và nổi bật</span
+                            >
+                        </div>
+                    </div>
+                    <div class="relative row-span-2">
+                        <img src="assets/img/img-abouts/image_25.png" alt="" class="w-full h-full" />
+                        <div class="w-full h-full absolute top-0 flex items-center justify-center">
+                            <span
+                                class="text-[#ffffff] text-[24px] max-sm:text-[16px] font-normal leading-[33.6px] max-sm:leading-[22.6px] w-[190px] h-full flex items-center justify-center text-center"
+                                >Nghiên cứu, thiết kế và xây dựng linh vật thương hiệu từ A-Z</span
+                            >
+                        </div>
+                    </div>
+                    <div class="relative">
+                        <img src="assets/img/img-abouts/image_26.png" alt="" class="w-full h-full" />
+                        <div class="w-full h-full absolute top-0 flex items-center justify-center">
+                            <span
+                                class="text-[#ffffff] text-[24px] max-sm:text-[16px] font-normal leading-[33.6px] max-sm:leading-[22.6px] w-[190px] h-full flex items-center justify-center text-center"
+                                >Character Marketing</span
+                            >
+                        </div>
+                    </div>
+                    <div class="relative bg-[#35CEBC] max-sm:h-[107.9px]">
+                        <div class="absolute bottom-0 right-0 left-0 flex items-end justify-between gap-10 p-5">
+                            <span
+                                class="text-[24px] max-sm:text-[16px] font-normal leading-[33.6px] max-sm:leading-[22.6px]"
+                                >DISCOVER MORE OF OUR WORK!</span
+                            >
+                            <div class="hover:opacity-80 cursor-pointer">
+                                <img src="assets/img/icon/square_arrow_right.png" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- What The Public Talk About Us -->
+        <div class="bg-[#02052E] pb-32">
+            <div class="container mx-auto md:px-40 lg:px-56">
+                <div class="flex items-center justify-center pb-5">
+                    <h2
+                        class="text-[#ffffff] text-center text-[32px] md:text-[48px] lg:text-[64px] font-bold leading-[38.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                    >
+                        What The Public Talk About Us
+                    </h2>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 py-5 max-lg:gap-4">
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+                    <div class="relative">
+                        <img src="assets/img/img-abouts/Rectangle_13.png" alt="" class="w-full h-full" />
+                        <div class="grid grid-cols-2 absolute bottom-0 left-0 right-0 p-4">
+                            <span class="text-[#ffffff] text-[20px] font-semibold leading-7"
+                                >Premier Japanese mascot agency.</span
+                            >
+                            <div class="flex items-end justify-end hover:opacity-80 cursor-pointer">
+                                <img src="assets/img/icon/subtract_right.png" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="relative">
+                        <img src="assets/img/img-abouts/Rectangle_14.png" alt="" class="w-full h-full" />
+                        <div class="grid grid-cols-2 absolute bottom-0 left-0 right-0 p-4">
+                            <span class="text-[#ffffff] text-[18px] font-semibold leading-7"
+                                >MINTO CREATIVE Indonesia: CurrenShe with OCBC</span
+                            >
+                            <div class="flex items-end justify-end hover:opacity-80 cursor-pointer">
+                                <img src="assets/img/icon/subtract_right.png" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="relative">
+                        <img src="assets/img/img-abouts/Rectangle_15.png" alt="" class="w-full h-full" />
+                        <div class="grid grid-cols-2 absolute bottom-0 left-0 right-0 p-4">
+                            <span class="text-[#ffffff] text-[18px] font-semibold leading-7"
+                                >MINTO CREATIVE India: The Responsible Manhole</span
+                            >
+                            <div class="flex items-end justify-end hover:opacity-80 cursor-pointer">
+                                <img src="assets/img/icon/subtract_right.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+                    <div class="relative">
+                        <img src="assets/img/img-abouts/Rectangle_16.png" alt="" class="w-full h-full" />
+                        <div class="grid grid-cols-2 absolute bottom-0 left-0 right-0 p-4">
+                            <span class="text-[#ffffff] text-[18px] font-semibold leading-7"
+                                >MINTO CREATIVE Hong Kong: Critical Core</span
+                            >
+                            <div class="flex items-end justify-end hover:opacity-80 cursor-pointer">
+                                <img src="assets/img/icon/subtract_right.png" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="relative">
+                        <img src="assets/img/img-abouts/Rectangle_17.png" alt="" class="w-full h-full" />
+                        <div class="grid grid-cols-2 absolute bottom-0 left-0 right-0 p-4">
+                            <span class="text-[#ffffff] text-[18px] font-semibold leading-7"
+                                >MINTO CREATIVE Indonesia: CurrenShe with OCBC</span
+                            >
+                            <div class="flex items-end justify-end hover:opacity-80 cursor-pointer">
+                                <img src="assets/img/icon/subtract_right.png" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="relative">
+                        <img src="assets/img/img-abouts/Rectangle_1351.png" alt="" class="w-full h-full" />
+                        <div class="grid grid-cols-2 absolute bottom-0 left-0 right-0 p-4">
+                            <span class="text-[#ffffff] text-[18px] font-semibold leading-7"
+                                >MINTO CREATIVE Hong Kong: Critical Core</span
+                            >
+                            <div class="flex items-end justify-end hover:opacity-80 cursor-pointer">
+                                <img src="assets/img/icon/subtract_right.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full flex justify-center items-center">
+                <div class="w-[120px]">
+                    <div class="grid grid-cols-3">
+                        <div class="cursor-pointer hover:opacity-90">
+                            <img src="assets/img/icon/intersect.png" />
+                        </div>
+                        <div class="cursor-pointer hover:opacity-90">
+                            <img src="assets/img/icon/intersect_1.png" />
+                        </div>
+                        <div class="cursor-pointer hover:opacity-90">
+                            <img src="assets/img/icon/intersect_1.png" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <div class="container mx-auto py-[20px]">
+            <div class="flex items-center justify-between max-lg:flex-col">
+                <ul class="flex gap-[40px] max-sm:gap-6">
+                    <li
+                        class="font-normal text-[24px] max-sm:text-[16px] leading-[33.6px] text-[#ffffff] hover:underline"
+                    >
+                        <a href="">Privacy Policy</a>
+                    </li>
+                    <li
+                        class="font-normal text-[24px] max-sm:text-[16px] leading-[33.6px] text-[#ffffff] hover:underline"
+                    >
+                        <a href="">Cookies</a>
+                    </li>
+                </ul>
+                <ul class="flex gap-[40px] max-sm:gap-6">
+                    <li
+                        class="font-normal text-[24px] max-sm:text-[16px] leading-[33.6px] text-[#ffffff] hover:underline"
+                    >
+                        <a href="">Subscribe</a>
+                    </li>
+                    <li
+                        class="font-normal text-[24px] max-sm:text-[16px] leading-[33.6px] text-[#ffffff] hover:underline"
+                    >
+                        <a href="">Connect</a>
+                    </li>
+                    <li
+                        class="font-normal text-[24px] max-sm:text-[16px] leading-[33.6px] text-[#ffffff] hover:underline"
+                    >
+                        <a href="">Work with us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <script src="/assets/js/script.js"></script>
+    </body>
+</html>

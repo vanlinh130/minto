@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./../../build/tailwind.css" />
+        <link rel="stylesheet" href="build/app.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./../../assets/css/style.css" />
+    </head>
+    <body>
+        <div class="">
+            <div class="">
+                <!-- header -->
+                <header class="w-full fixed top-0 left-0 right-0 z-10 header-nav-top">
+                    <div class="container mx-auto">
+                        <div
+                            class="flex items-center max-sm:flex-col justify-between max-sm:gap-1 mt-5 md:mt-6 lg:mt-8 mb-[15px] md:mb-[88px] lg:mb-[205px]"
+                        >
+                            <div class="flex items-center justify-center">
+                                <button
+                                    class="py-1 px-4 rounded hover:bg-[#34CEBC] text-[#ffffff] hover:text-[#02052E] js-solution"
+                                >
+                                    <span
+                                        class="text-[24px] font-normal leading-[33.6px] cursor-pointer hover:opacity-90 max-sm:text-[16px]"
+                                        >SOLUTION</span
+                                    >
+                                </button>
+                            </div>
+                            <div class="flex items-center justify-center cursor-pointer">
+                                <a href="/" class=""><img src="../../assets/img/logo.png" /></a>
+                            </div>
+                            <div class="flex items-center justify-center">
+                                <button
+                                    class="py-1 px-4 rounded hover:bg-[#34CEBC] text-[#ffffff] hover:text-[#02052E] js-about"
+                                >
+                                    <span
+                                        class="text-[24px] font-normal leading-[33.6px] cursor-pointer hover:opacity-90 max-sm:text-[16px]"
+                                        >ABOUT</span
+                                    >
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+
+                <!-- Drop menu v1 -->
+                <div
+                    class="bg-[#02052E] min-h-screen w-full fixed top-0 left-0 right-0 z-50 py-16 header-nav solution-modal js-solution-modal active"
+                >
+                    <div class="w-full px-[20px] md:px-[30px] lg:px-0 js-solution-modal-container">
+                        <div class="container mx-auto">
+                            <div class="flex items-end justify-start">
+                                <span class="text-[#ffffff] text-[32px] font-medium leading-[40px] tracking-[10%]"
+                                    >Solution.</span
+                                >
+                            </div>
+                        </div>
+                        <div class="border-b-[1px] border-b-[#F2F3FF] my-4"></div>
+                        <ul class="w-full">
+                            <li class="text-[#34CEBC] hover:bg-[#34CEBC] hover:text-[#02052E] cursor-pointer">
+                                <div class="container mx-auto">
+                                    <a
+                                        href="/pages/solutions/character-marrketing.html"
+                                        class="text-[24px] md:text-[32px] lg:text-[46px] font-normal leading-[48.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                                    >
+                                        CHARACTER MARKETTING
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="text-[#34CEBC] hover:bg-[#34CEBC] hover:text-[#02052E] cursor-pointer+">
+                                <div class="container mx-auto">
+                                    <a
+                                        href="/pages/solutions/character-licensing.html"
+                                        class="text-[24px] md:text-[32px] lg:text-[46px] font-normal leading-[48.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                                    >
+                                        CHARACTER LICENSING
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="text-[#34CEBC] hover:bg-[#34CEBC] hover:text-[#02052E] cursor-pointer+">
+                                <div class="container mx-auto">
+                                    <a
+                                        href="/pages/solutions/creative-branding.html"
+                                        class="text-[24px] md:text-[32px] lg:text-[46px] font-normal leading-[48.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                                    >
+                                        CREATIVE & BRANDING
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="text-[#34CEBC] hover:bg-[#34CEBC] hover:text-[#02052E] cursor-pointer+">
+                                <div class="container mx-auto">
+                                    <a
+                                        href="/pages/solutions/digital-stagery.html"
+                                        class="text-[24px] md:text-[32px] lg:text-[46px] font-normal leading-[48.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                                    >
+                                        DIGITAL & STRATEGY
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="text-[#34CEBC] hover:bg-[#34CEBC] hover:text-[#02052E] cursor-pointer+">
+                                <div class="container mx-auto">
+                                    <a
+                                        href="/pages/solutions/event-production.html"
+                                        class="text-[24px] md:text-[32px] lg:text-[46px] font-normal leading-[48.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                                    >
+                                        EVENT & PRODUCTION
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="container mx-auto">
+                            <div
+                                class="bg-[#02052E] text-[#ffffff] cursor-pointer p-[19px] float-right hover:opacity-90 js-solution-modal-close"
+                            >
+                                <div class="flex items-center gap-4">
+                                    <img
+                                        src="../../assets/img/icon/square_arrow_left_white.png"
+                                        alt=""
+                                        class="w-[18px] md:w-[22px] lg:w-[29.34px] h-[27px] md:h-[37px] lg:h-[47px]"
+                                    />
+                                    <span
+                                        class="text-[24px] md:text-[32px] lg:text-[46px] font-medium leading-[40px] tracking-[10%]"
+                                        >Close</span
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Drop menu v2 -->
+                <div
+                    class="bg-[#02052E] w-full min-h-screen fixed top-0 left-0 right-0 z-50 py-16 header-nav about-modal js-about-modal"
+                >
+                    <div class="w-full px-[20px] md:px-[30px] lg:px-0 js-about-modal-container">
+                        <div class="container mx-auto">
+                            <div class="flex items-end justify-end">
+                                <span class="text-[#ffffff] text-[32px] font-medium leading-[40px] tracking-[10%]"
+                                    >About us.</span
+                                >
+                            </div>
+                        </div>
+                        <div class="border-b-[1px] border-b-[#F2F3FF] my-4"></div>
+                        <ul class="w-full">
+                            <li class="text-[#34CEBC] hover:bg-[#34CEBC] hover:text-[#02052E] cursor-pointer+">
+                                <div class="container mx-auto text-end">
+                                    <a
+                                        href="/pages/abouts/about.html"
+                                        class="text-[24px] md:text-[32px] lg:text-[46px] font-normal leading-[48.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                                    >
+                                        ABOUT MINTO
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="text-[#34CEBC] hover:bg-[#34CEBC] hover:text-[#02052E] cursor-pointer+">
+                                <div class="container mx-auto text-end">
+                                    <a
+                                        href="/pages/abouts/team.html"
+                                        class="text-[24px] md:text-[32px] lg:text-[46px] font-normal leading-[48.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                                    >
+                                        TEAM
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="text-[#34CEBC] hover:bg-[#34CEBC] hover:text-[#02052E] cursor-pointer+">
+                                <div class="container mx-auto text-end">
+                                    <a
+                                        href="/pages/abouts/news.html"
+                                        class="text-[24px] md:text-[32px] lg:text-[46px] font-normal leading-[48.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                                    >
+                                        NEWS & IDEA
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="text-[#34CEBC] hover:bg-[#34CEBC] hover:text-[#02052E] cursor-pointer+">
+                                <div class="container mx-auto text-end">
+                                    <a
+                                        href="/pages/abouts/carrer.html"
+                                        class="text-[24px] md:text-[32px] lg:text-[46px] font-normal leading-[48.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                                    >
+                                        CARRER
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="text-[#34CEBC] hover:bg-[#34CEBC] hover:text-[#02052E] cursor-pointer+">
+                                <div class="container mx-auto text-end">
+                                    <a
+                                        href="/pages/abouts/artist-brand.html"
+                                        class="text-[24px] md:text-[32px] lg:text-[46px] font-normal leading-[48.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                                    >
+                                        ARTIST & BRAND
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="text-[#34CEBC] hover:bg-[#34CEBC] hover:text-[#02052E] cursor-pointer+">
+                                <div class="container mx-auto text-end">
+                                    <a
+                                        href="/pages/abouts/contact.html"
+                                        class="text-[24px] md:text-[32px] lg:text-[46px] font-normal leading-[48.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                                    >
+                                        CONTACT
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="container mx-auto">
+                            <div
+                                class="bg-[#02052E] cursor-pointer p-[19px] text-[#ffffff] hover:opacity-90 js-about-modal-close"
+                            >
+                                <div class="flex items-center gap-4">
+                                    <span
+                                        class="text-[24px] md:text-[32px] lg:text-[46px] font-medium leading-[40px] tracking-[10%]"
+                                        >Close</span
+                                    >
+                                    <img
+                                        src="../../assets/img/icon/square_arrow_right_white.png"
+                                        alt=""
+                                        class="w-[18px] md:w-[22px] lg:w-[29.34px] h-[27px] md:h-[37px] lg:h-[47px]"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full h-auto">
+                <img src="./../../assets/img/draw_landing1_1_cl.png" alt="" class="w-full h-full" />
+            </div>
+
+            <!-- Definition  -->
+            <section class="container mx-auto px-5 md:px-5 lg:px-10 py-5 md:py-10 lg:py-20">
+                <div class="grid grid-cols-1 lg:grid-cols-5 gap-4">
+                    <div class="h-full col-span-2">
+                        <div class="font-bold text-[#ffffff] text-32 md:text-5xl lg:text-64">Definition</div>
+                        <div class="text-[#ffffff] text-base font-normal">
+                            <p class="leading-6 py-3">
+                                Character licensing is a legal agreement or arrangement where Minto grants permission to
+                                you (licensee) to use our characters, including the character's likeness, images,
+                                designs, and associated elements in various products, merchandise, marketing campaigns,
+                                or other promotional activities.Our character has long known to leverage the popularity,
+                                recognition, and emotional connection that consumers have with the character to enhance
+                                the appeal and marketability of our clients’ products.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="h-full col-span-3 flex items-center justify-items-center justify-center">
+                        <div class="flex items-center justify-items-center">
+                            <div class="flex items-center justify-items-center">
+                                <img src="./../../assets/img/image5_cl.png" alt="" class="w-full h-full" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Benefit  -->
+            <section class="container mx-auto px-5 md:px-5 lg:px-5 flex flex-col max-md:gap-2 gap-10">
+                <div class="text-center">
+                    <span class="font-bold leading-78 text-[#ffffff] text-center text-32 md:text-5xl lg:text-64"
+                        >Benefit</span
+                    >
+                </div>
+                <div class="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                    <div class="group">
+                        <div class="relative">
+                            <div>
+                                <img src="./../../assets/img/Rectangle13_cl.png" alt="" />
+                                <div class="h-[394px] absolute item bottom-0 left-0 right-0"></div>
+                                <div class="absolute bottom-10 flex w-full px-5 justify-between">
+                                    <div class="font-bold leading-10 text-[#ffffff] text-2xl md:text-3xl lg:text-32">
+                                        Amplify Consumer Engagement
+                                    </div>
+                                    <div>
+                                        <i class="fa-sharp fa-solid fa-angle-right text-4xl text-[#ffffff]"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div
+                                class="h-full flex flex-col justify-end px-6 py-10 bg-[#009599] absolute top-0 left-0 right-0 opacity-0 group-hover:opacity-100 duration-700"
+                            >
+                                <div class="flex flex-col gap-4 px-2">
+                                    <div class="flex justify-between">
+                                        <div
+                                            class="font-bold leading-10 text-[#ffffff] text-2xl md:text-3xl lg:text-32"
+                                        >
+                                            Amplify Consumer Engagement
+                                        </div>
+                                        <div>
+                                            <i class="fa-solid fa-chevron-down text-4xl text-[#ffffff]"></i>
+                                        </div>
+                                    </div>
+                                    <p class="font-normal leading-33 text-[#F2F3FF] max-lg:text-base text-2xl">
+                                        Our characters ignites consumer interest and engagement by leveraging the
+                                        existing emotional connection people have with beloved characters, resulting in
+                                        more meaningful interactions and a stronger bond with your brand.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="group">
+                        <div class="relative">
+                            <div>
+                                <img src="./../../assets/img/Rectangle13_cl.png" alt="" />
+                                <div class="h-[394px] absolute item bottom-0 left-0 right-0"></div>
+                                <div class="absolute bottom-10 flex w-full px-5 justify-between">
+                                    <div class="font-bold leading-10 text-[#ffffff] text-2xl md:text-3xl lg:text-32">
+                                        Accelerate Product Innovation
+                                    </div>
+                                    <div>
+                                        <i class="fa-sharp fa-solid fa-angle-right text-4xl text-[#ffffff]"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div
+                                class="h-full flex flex-col justify-end px-6 py-10 bg-[#009599] absolute top-0 left-0 right-0 opacity-0 group-hover:opacity-100 duration-700"
+                            >
+                                <div class="flex flex-col gap-4 px-2">
+                                    <div class="flex justify-between">
+                                        <div
+                                            class="font-bold leading-10 text-[#ffffff] text-2xl md:text-3xl lg:text-32"
+                                        >
+                                            Accelerate Product Innovation
+                                        </div>
+                                        <div>
+                                            <i class="fa-solid fa-chevron-down text-4xl text-[#ffffff]"></i>
+                                        </div>
+                                    </div>
+                                    <p class="font-normal leading-33 text-[#F2F3FF] max-lg:text-base text-2xl">
+                                        Our characters ignites consumer interest and engagement by leveraging the
+                                        existing emotional connection people have with beloved characters, resulting in
+                                        more meaningful interactions and a stronger bond with your brand.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="group">
+                        <div class="relative">
+                            <div>
+                                <img src="./../../assets/img/Rectangle13_cl.png" alt="" />
+                                <div class="h-[394px] absolute item bottom-0 left-0 right-0"></div>
+                                <div class="absolute bottom-10 flex w-full px-5 justify-between">
+                                    <div class="font-bold leading-10 text-[#ffffff] text-2xl md:text-3xl lg:text-32">
+                                        Maximize Merchandising Opportunities
+                                    </div>
+                                    <div>
+                                        <i class="fa-sharp fa-solid fa-angle-right text-4xl text-[#ffffff]"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div
+                                class="h-full flex flex-col justify-end px-6 py-10 bg-[#009599] absolute top-0 left-0 right-0 opacity-0 group-hover:opacity-100 duration-700"
+                            >
+                                <div class="flex flex-col gap-4 px-2">
+                                    <div class="flex justify-between">
+                                        <div
+                                            class="font-bold leading-10 text-[#ffffff] text-2xl md:text-3xl lg:text-32"
+                                        >
+                                            Maximize Merchandising Opportunities
+                                        </div>
+                                        <div>
+                                            <i class="fa-solid fa-chevron-down text-4xl text-[#ffffff]"></i>
+                                        </div>
+                                    </div>
+                                    <p class="font-normal leading-33 text-[#F2F3FF] max-lg:text-base text-2xl">
+                                        Our characters ignites consumer interest and engagement by leveraging the
+                                        existing emotional connection people have with beloved characters, resulting in
+                                        more meaningful interactions and a stronger bond with your brand.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="group">
+                        <div class="relative">
+                            <div>
+                                <img src="./../../assets/img/Rectangle13_cl.png" alt="" />
+                                <div class="h-[394px] absolute item bottom-0 left-0 right-0"></div>
+                                <div class="absolute bottom-10 flex w-full px-5 justify-between">
+                                    <div class="font-bold leading-10 text-[#ffffff] text-2xl md:text-3xl lg:text-32">
+                                        Leverage Established Storytelling
+                                    </div>
+                                    <div>
+                                        <i class="fa-sharp fa-solid fa-angle-right text-4xl text-[#ffffff]"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div
+                                class="h-full flex flex-col justify-end px-6 py-10 bg-[#009599] absolute top-0 left-0 right-0 opacity-0 group-hover:opacity-100 duration-700"
+                            >
+                                <div class="flex flex-col gap-4 px-2">
+                                    <div class="flex justify-between">
+                                        <div
+                                            class="font-bold leading-10 text-[#ffffff] text-2xl md:text-3xl lg:text-32"
+                                        >
+                                            Leverage Established Storytelling
+                                        </div>
+                                        <div>
+                                            <i class="fa-solid fa-chevron-down text-4xl text-[#ffffff]"></i>
+                                        </div>
+                                    </div>
+                                    <p class="font-normal leading-33 text-[#F2F3FF] max-lg:text-base text-2xl">
+                                        Our characters ignites consumer interest and engagement by leveraging the
+                                        existing emotional connection people have with beloved characters, resulting in
+                                        more meaningful interactions and a stronger bond with your brand.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="group">
+                        <div class="relative">
+                            <div>
+                                <img src="./../../assets/img/Rectangle13_cl.png" alt="" />
+                                <div class="h-[394px] absolute item bottom-0 left-0 right-0"></div>
+                                <div class="absolute bottom-10 flex w-full px-5 justify-between">
+                                    <div class="font-bold leading-10 text-[#ffffff] text-2xl md:text-3xl lg:text-32">
+                                        Access Targeted Demographicsg
+                                    </div>
+                                    <div>
+                                        <i class="fa-sharp fa-solid fa-angle-right text-4xl text-[#ffffff]"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div
+                                class="h-full flex flex-col justify-end px-6 py-10 bg-[#009599] absolute top-0 left-0 right-0 opacity-0 group-hover:opacity-100 duration-700"
+                            >
+                                <div class="flex flex-col gap-4 px-2">
+                                    <div class="flex justify-between">
+                                        <div
+                                            class="font-bold leading-10 text-[#ffffff] text-2xl md:text-3xl lg:text-32"
+                                        >
+                                            Access Targeted Demographicsg
+                                        </div>
+                                        <div>
+                                            <i class="fa-solid fa-chevron-down text-4xl text-[#ffffff]"></i>
+                                        </div>
+                                    </div>
+                                    <p class="font-normal leading-33 text-[#F2F3FF] max-lg:text-base text-2xl">
+                                        Our characters ignites consumer interest and engagement by leveraging the
+                                        existing emotional connection people have with beloved characters, resulting in
+                                        more meaningful interactions and a stronger bond with your brand.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="group">
+                        <div class="relative">
+                            <div>
+                                <img src="./../../assets/img/Rectangle13_cl.png" alt="" />
+                                <div class="h-[394px] absolute item bottom-0 left-0 right-0"></div>
+                                <div class="absolute bottom-10 flex w-full px-5 justify-between">
+                                    <div class="font-bold leading-10 text-[#ffffff] text-2xl md:text-3xl lg:text-32">
+                                        Enhance Cross-Promotional Power
+                                    </div>
+                                    <div>
+                                        <i class="fa-sharp fa-solid fa-angle-right text-4xl text-[#ffffff]"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div
+                                class="h-full flex flex-col justify-end px-6 py-10 bg-[#009599] absolute top-0 left-0 right-0 opacity-0 group-hover:opacity-100 duration-700"
+                            >
+                                <div class="flex flex-col gap-4 px-2">
+                                    <div class="flex justify-between">
+                                        <div
+                                            class="font-bold leading-10 text-[#ffffff] text-2xl md:text-3xl lg:text-32"
+                                        >
+                                            Enhance Cross-Promotional Power
+                                        </div>
+                                        <div>
+                                            <i class="fa-solid fa-chevron-down text-4xl text-[#ffffff]"></i>
+                                        </div>
+                                    </div>
+                                    <p class="font-normal leading-33 text-[#F2F3FF] max-lg:text-base text-2xl">
+                                        Our characters ignites consumer interest and engagement by leveraging the
+                                        existing emotional connection people have with beloved characters, resulting in
+                                        more meaningful interactions and a stronger bond with your brand.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Our Character -->
+            <section class="w-full bg-[#ffffff] my-20 max-md:my-10">
+                <div class="py-10 text-center">
+                    <span class="font-normal text-[24px] leading-33 text-[#34CEBC]">Meet our characters</span>
+                    <h1 class="font-bold text-darkBlue leading-78 text-32 md:text-5xl lg:text-64">Our Character</h1>
+                </div>
+                <div class="mx-auto">
+                    <img class="w-full" src="./../../assets/img/minto-agency-credential-8-2048_1_cl.png" alt="" />
+                    <div class="flex justify-center pb-5">
+                        <button
+                            class="font-semibold text-[16px] px-20 bg-[#34CEBC] py-3 text-darkBlue leading-[19.5px]"
+                        >
+                            Join With Us
+                            <i class="fa-sharp fa-solid fa-angle-right text-xl text-darkBlue"></i>
+                        </button>
+                    </div>
+                </div>
+                <!-- Application -->
+                <div class="w-full">
+                    <div class="relative w-full">
+                        <img class="w-full" src="./../../assets/img/banner_cmk.png" alt="" />
+
+                        <div class="flex justify-between absolute bottom-4 left-0 right-0 z-[99] max-md:bottom-[-8]">
+                            <h1 class="font-bold leading-78 text-[#ffffff] z-[99] text-32 md:text-5xl lg:text-64">
+                                Application
+                            </h1>
+                            <div class="flex justify-center">
+                                <button
+                                    class="font-semibold text-[16px] px-8 my-3.5 bg-[#34CEBC] text-darkBlue leading-[19.5px]"
+                                >
+                                    Read more
+                                    <i class="fa-sharp fa-solid fa-angle-right text-xl text-darkBlue"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div
+                            class="absolute top-0 left-0 right-0 w-full h-[30%] bg-gradient-to-b from-[#ffffff] opacity-80"
+                        ></div>
+
+                        <div class="absolute bottom-0 left-0 right-0 h-[20%] bg-gradient-to-r from-darkBlue"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Our Project -->
+            <section class="container mx-auto px-5 md:px-5 lg:px-5">
+                <div class="text-center">
+                    <span class="font-bold leading-78 text-[#ffffff] text-center text-32 md:text-5xl lg:text-64"
+                        >Our Project</span
+                    >
+                </div>
+
+                <div class="gap-8 py-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-md:gap-5 max-md:py-5">
+                    <div
+                        class="bg-[#ffffff] flex flex-col gap-[22px] p-4 rounded border-[1px] border-[#9A9CAC] cursor-pointer"
+                    >
+                        <img src="./../../assets/img/Rectangle38_1_cmk.png" alt="" />
+                        <div class="flex flex-col gap-2">
+                            <h4 class="text-[#02052E] text-[24px] font-semibold leading-[33.34px]">
+                                Character as a Centerpiece of Integrated Campaign
+                            </h4>
+                            <span class="text-[#34CEBC] text-[14px] font-bold leading-[24px]">Integrated Campaign</span>
+                        </div>
+                    </div>
+
+                    <div
+                        class="bg-[#ffffff] flex flex-col gap-[22px] p-4 rounded border-[1px] border-[#9A9CAC] cursor-pointer"
+                    >
+                        <img src="./../../assets/img/Rectangle38_2_cmk.png" alt="" />
+                        <div class="flex flex-col gap-2">
+                            <h4 class="text-[#02052E] text-[24px] font-semibold leading-[33.34px]">
+                                Exposition of Internet
+                            </h4>
+                            <span class="text-[#34CEBC] text-[14px] font-bold leading-[24px]">EVENTPOPUP CAFE</span>
+                        </div>
+                    </div>
+
+                    <div
+                        class="bg-[#ffffff] flex flex-col gap-[22px] p-4 rounded border-[1px] border-[#9A9CAC] cursor-pointer"
+                    >
+                        <img src="./../../assets/img/Rectangle38_3_cmk.png" alt="" />
+                        <div class="flex flex-col gap-2">
+                            <h4 class="text-[#02052E] text-[24px] font-semibold leading-[33.34px]">
+                                Reducing Negative Comments on Social Media
+                            </h4>
+                            <span class="text-[#34CEBC] text-[14px] font-bold leading-[24px]">Social Media</span>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-[#ffffff] flex flex-col gap-[22px] p-4 rounded border-[1px] border-[#9A9CAC] cursor-pointer"
+                    >
+                        <img src="./../../assets/img/Rectangle38_4_cmk.png" alt="" />
+                        <div class="flex flex-col gap-2">
+                            <h4 class="text-[#02052E] text-[24px] font-semibold leading-[33.34px]">Mimi and Neko</h4>
+                            <span class="text-[#34CEBC] text-[14px] font-bold leading-[24px]">Character Design </span>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-[#ffffff] flex flex-col gap-[22px] p-4 rounded border-[1px] border-[#9A9CAC] cursor-pointer"
+                    >
+                        <img src="./../../assets/img/Rectangle38_5_cmk.png" alt="" />
+                        <div class="flex flex-col gap-2">
+                            <h4 class="text-[#02052E] text-[24px] font-semibold leading-[33.34px]">
+                                Exposition of Internet
+                            </h4>
+                            <span class="text-[#34CEBC] text-[14px] font-bold leading-[24px]">Character Design</span>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-[#ffffff] flex flex-col gap-[22px] p-4 rounded border-[1px] border-[#9A9CAC] cursor-pointer"
+                    >
+                        <img src="./../../assets/img/Rectangle38_6_cmk.png" alt="" />
+                        <div class="flex flex-col gap-2">
+                            <h4 class="text-[#02052E] text-[24px] font-semibold leading-[33.34px]">Piyomaru</h4>
+                            <span class="text-[#34CEBC] text-[14px] font-bold leading-[24px]">Character Design </span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- contact -->
+            <div class="container mx-auto px-5 md:px-5 lg:px-5">
+                <div class="py-10 sm:py-20 flex flex-col gap-[14px]">
+                    <div class="font-normal text-2xl text-[#34CEBC] text-center leading-33 max-sm:text-lg">
+                        Let’s Connect
+                    </div>
+                    <div class="font-bold text-center text-[#ffffff] leading-78 text-32 md:text-5xl lg:text-64">
+                        Contact
+                    </div>
+                    <div class="font-normal text-lg text-center leading-6 text-[#ffffff] max-md:text-base">
+                        If you want to build a brand mascot and a comprehensive marketing plan, leave your information
+                        below. Minto will contact the consultant as soon as possible
+                    </div>
+                </div>
+
+                <div class="container mx-auto grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 py-10">
+                    <div class="flex items-end">
+                        <div class="flex flex-col gap-4">
+                            <div class="flex justify-center">
+                                <div class="">
+                                    <img src="./../../assets/img/iconBear.png" alt="" class="" />
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-4">
+                                <span class="font-bold text-[#34CEBC] text-3xl leading-10"
+                                    >Minto (Vietnam) Co., Ltd.</span
+                                >
+                                <div class="flex gap-4">
+                                    <i class="fa-sharp fa-solid fa-location-dot text-[#ffffff] text-lg"> </i>
+
+                                    <p class="font-normal text-lg leading-6 text-[#ffffff]">
+                                        Ground floor, Thien Son building, 5 Nguyen Gia Thieu,<br />
+                                        Vo Thi Sau ward, district 3, Ho Chi Minh, Vietnam
+                                    </p>
+                                </div>
+
+                                <div class="flex gap-4">
+                                    <i class="fa-solid fa-phone-volume text-[#ffffff]"></i>
+
+                                    <p class="font-normal text-lg leading-6 text-[#ffffff]">84-909-868-915</p>
+                                </div>
+
+                                <div class="flex gap-4">
+                                    <i class="fa-thin fa-envelope text-[#ffffff]"></i>
+                                    <p class="font-normal text-lg leading-6 text-[#ffffff]">info_vn@minto-inc.jp</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form action="" class="py-10 sm:py-20 lg:py-0">
+                        <div class="mb-6 flex flex-col gap-2">
+                            <label for="name" class="block mb-2 text-lg font-semibold text-[#ffffff] leading-4"
+                                >Your name</label
+                            >
+                            <input
+                                type="text"
+                                id="name"
+                                class="bg-gray-50 border border-none border-gray-300 text-gray-900 block w-full p-4"
+                                placeholder="Jace..."
+                                required
+                            />
+                        </div>
+                        <div class="mb-6 flex flex-col gap-2">
+                            <label for="company" class="block mb-2 text-lg font-semibold text-[#ffffff] leading-4"
+                                >Company</label
+                            >
+                            <input
+                                type="text"
+                                id="company"
+                                class="bg-gray-50 border border-none border-gray-300 text-gray-900 block w-full p-4"
+                                placeholder="Your company"
+                                required
+                            />
+                        </div>
+
+                        <div class="mb-6 flex flex-col gap-2">
+                            <label for="email" class="block mb-2 text-lg font-semibold text-[#ffffff] leading-4"
+                                >Email</label
+                            >
+                            <input
+                                type="email"
+                                id="email"
+                                class="bg-gray-50 border border-none border-gray-300 text-gray-900 block w-full p-4"
+                                placeholder="Enter your mail"
+                                required
+                            />
+                        </div>
+
+                        <div class="mb-6 flex flex-col gap-2">
+                            <label for="interested" class="block mb-2 text-lg font-semibold text-[#ffffff] leading-4"
+                                >I’m interested in</label
+                            >
+                            <input
+                                type="text"
+                                id="interested"
+                                class="bg-gray-50 border border-none border-gray-300 text-gray-900 block w-full p-4"
+                                placeholder="Business inquiries"
+                                required
+                            />
+                        </div>
+
+                        <div class="mb-4 flex flex-col gap-2">
+                            <label for="messenger" class="block mb-2 text-lg font-semibold text-[#ffffff] leading-4"
+                                >Your messenger</label
+                            >
+
+                            <textarea class="w-full p-4" cols="30" rows="8" placeholder="Type something"></textarea>
+                        </div>
+                        <button class="text-dbg-darkBlue text-xl bg-[#34CEBC] w-full p-3 font-semibold">Submit</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- footer -->
+            <div class="container mx-auto py-[20px]">
+                <div class="flex items-center justify-between max-lg:flex-col">
+                    <ul class="flex gap-[40px] max-sm:gap-6">
+                        <li
+                            class="font-normal text-[24px] max-sm:text-[16px] leading-[33.6px] text-[#ffffff] hover:underline"
+                        >
+                            <a href="">Privacy Policy</a>
+                        </li>
+                        <li
+                            class="font-normal text-[24px] max-sm:text-[16px] leading-[33.6px] text-[#ffffff] hover:underline"
+                        >
+                            <a href="">Cookies</a>
+                        </li>
+                    </ul>
+                    <ul class="flex gap-[40px] max-sm:gap-6">
+                        <li
+                            class="font-normal text-[24px] max-sm:text-[16px] leading-[33.6px] text-[#ffffff] hover:underline"
+                        >
+                            <a href="">Subscribe</a>
+                        </li>
+                        <li
+                            class="font-normal text-[24px] max-sm:text-[16px] leading-[33.6px] text-[#ffffff] hover:underline"
+                        >
+                            <a href="">Connect</a>
+                        </li>
+                        <li
+                            class="font-normal text-[24px] max-sm:text-[16px] leading-[33.6px] text-[#ffffff] hover:underline"
+                        >
+                            <a href="">Work with us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script src="/assets/js/script.js"></script>
+    </body>
+</html>

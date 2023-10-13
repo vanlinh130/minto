@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular' !important;
+    background-color: #02052e;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1140px !important;
+}
+
+.header-nav-top {
+    background: linear-gradient(180deg, #02052e 17.41%, rgba(2, 5, 46, 0) 92.91%);
+    max-width: inherit;
+    margin: auto;
+}
+
+.header-nav {
+    max-width: inherit;
+    margin: auto;
+}
+
+.header-nav-bottom {
+    background: linear-gradient(0deg, #35cebc 0%, #35cebc 40.24%, rgba(53, 206, 188, 0) 99.99%);
+}
+
+.solution-pexel {
+    background: linear-gradient(0deg, #02052e 0%, rgba(2, 5, 46, 0.85) 35.89%, rgba(2, 5, 46, 0) 89.18%);
+}
+
+/* input */
+input[type='checkbox'] {
+    accent-color: #009599;
+    border: 1px solid #009599;
+    width: 24px;
+    height: 24px;
+}
+
+input[type='radio'] {
+    accent-color: #009599;
+    border: 1px solid #009599;
+    width: 24px;
+    height: 24px;
+}
+
+/* modal */
+.about-modal {
+    display: none;
+}
+
+.about-modal.open {
+    display: flex;
+}
+
+.solution-modal {
+    display: none;
+}
+
+.solution-modal.open {
+    display: flex;
+}
+
+.artist-modal {
+    display: none;
+}
+
+.artist-modal.open {
+    display: flex;
+}
+
+.brand-modal {
+    display: none;
+}
+
+.brand-modal.open {
+    display: flex;
+}
+
+.contact-modal {
+    display: none;
+}
+
+.contact-modal.open {
+    display: flex;
+}
+
+.active {
+    -moz-transition: width 0.3s ease-in-out, left 0.4s ease-in-out;
+    -webkit-transition: width 0.3s ease-in-out, left 0.4s ease-in-out;
+    -moz-transition: width 0.3s ease-in-out, left 0.4s ease-in-out;
+    -o-transition: width 0.3s ease-in-out, left 0.4s ease-in-out;
+    transition: width 0.3s ease-in-out, left 0.4s ease-in-out;
+}
+
+/*  */
+.item {
+    background: linear-gradient(360deg, #02052e 3.48%, rgba(2, 5, 46, 0) 67.36%);
+}
+
+.test-ra {
+    border-radius: 5.3px, 5.3px, 0px, 0px;
+}
+
+.item1 {
+    background: linear-gradient(360deg, #92e5db 3.48%, rgba(2, 5, 46, 0) 67.36%);
+}
+
+ul .list_style {
+    list-style-position: outside;
+}

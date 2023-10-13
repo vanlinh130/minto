@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Brand</title>
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" /> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+        <link rel="stylesheet" href="../../assets/fonts/fontawesome-free-6.4.2-web/css/all.css" />
+        <link rel="stylesheet" href="../../assets/css/style.css" />
+        <link rel="stylesheet" href="../../build/style.css" />
+    </head>
+    <body class="bg-[#02052E] min-h-screen">
+        <div class="max-w-[1440px] mx-auto min-h-screen">
+            <div class="">
+                <!-- header -->
+                <header class="w-full fixed top-0 left-0 right-0 z-10 header-nav-top">
+                    <div class="container mx-auto">
+                        <div
+                            class="flex items-center max-sm:flex-col justify-between max-sm:gap-1 mt-5 md:mt-6 lg:mt-8 mb-[15px] md:mb-[88px] lg:mb-[205px]"
+                        >
+                            <div class="flex items-center justify-center">
+                                <button
+                                    class="py-1 px-4 rounded hover:bg-[#34CEBC] text-[#ffffff] hover:text-[#02052E] js-solution"
+                                >
+                                    <span
+                                        class="text-[24px] font-normal leading-[33.6px] cursor-pointer hover:opacity-90 max-sm:text-[16px]"
+                                        >SOLUTION</span
+                                    >
+                                </button>
+                            </div>
+                            <div class="flex items-center justify-center cursor-pointer">
+                                <a href="/" class=""><img src="../../assets/img/logo.png" /></a>
+                            </div>
+                            <div class="flex items-center justify-center">
+                                <button
+                                    class="py-1 px-4 rounded hover:bg-[#34CEBC] text-[#ffffff] hover:text-[#02052E] js-about"
+                                >
+                                    <span
+                                        class="text-[24px] font-normal leading-[33.6px] cursor-pointer hover:opacity-90 max-sm:text-[16px]"
+                                        >ABOUT</span
+                                    >
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+    
+                <!-- Drop menu v1 -->
+                <div
+                    class="bg-[#02052E] min-h-screen w-full fixed top-0 left-0 right-0 z-50 py-16 header-nav solution-modal js-solution-modal active"
+                >
+                    <div class="w-full px-[20px] md:px-[30px] lg:px-0 js-solution-modal-container">
+                        <div class="container mx-auto">
+                            <div class="flex items-end justify-start">
+                                <span class="text-[#ffffff] text-[32px] font-medium leading-[40px] tracking-[10%]"
+                                    >Solution.</span
+                                >
+                            </div>
+                        </div>
+                        <div class="border-b-[1px] border-b-[#F2F3FF] my-4"></div>
+                        <ul class="w-full">
+                            <li class="text-[#34CEBC] hover:bg-[#34CEBC] hover:text-[#02052E] cursor-pointer">
+                                <div class="container mx-auto">
+                                    <a
+                                        href="/pages/solutions/character-marrketing.html"
+                                        class="text-[24px] md:text-[32px] lg:text-[46px] font-normal leading-[48.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                                    >
+                                        CHARACTER MARKETTING
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="text-[#34CEBC] hover:bg-[#34CEBC] hover:text-[#02052E] cursor-pointer+">
+                                <div class="container mx-auto">
+                                    <a
+                                        href="/pages/solutions/character-licensing.html"
+                                        class="text-[24px] md:text-[32px] lg:text-[46px] font-normal leading-[48.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                                    >
+                                        CHARACTER LICENSING
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="text-[#34CEBC] hover:bg-[#34CEBC] hover:text-[#02052E] cursor-pointer+">
+                                <div class="container mx-auto">
+                                    <a
+                                        href="/pages/solutions/creative-branding.html"
+                                        class="text-[24px] md:text-[32px] lg:text-[46px] font-normal leading-[48.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                                    >
+                                        CREATIVE & BRANDING
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="text-[#34CEBC] hover:bg-[#34CEBC] hover:text-[#02052E] cursor-pointer+">
+                                <div class="container mx-auto">
+                                    <a
+                                        href="/pages/solutions/digital-stagery.html"
+                                        class="text-[24px] md:text-[32px] lg:text-[46px] font-normal leading-[48.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                                    >
+                                        DIGITAL & STRATEGY
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="text-[#34CEBC] hover:bg-[#34CEBC] hover:text-[#02052E] cursor-pointer+">
+                                <div class="container mx-auto">
+                                    <a
+                                        href="/pages/solutions/event-production.html"
+                                        class="text-[24px] md:text-[32px] lg:text-[46px] font-normal leading-[48.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                                    >
+                                        EVENT & PRODUCTION
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="container mx-auto">
+                            <div
+                                class="bg-[#02052E] text-[#ffffff] cursor-pointer p-[19px] float-right hover:opacity-90 js-solution-modal-close"
+                            >
+                                <div class="flex items-center gap-4">
+                                    <img
+                                        src="../../assets/img/icon/square_arrow_left_white.png"
+                                        alt=""
+                                        class="w-[18px] md:w-[22px] lg:w-[29.34px] h-[27px] md:h-[37px] lg:h-[47px]"
+                                    />
+                                    <span
+                                        class="text-[24px] md:text-[32px] lg:text-[46px] font-medium leading-[40px] tracking-[10%]"
+                                        >Close</span
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Drop menu v2 -->
+                <div
+                    class="bg-[#02052E] w-full min-h-screen fixed top-0 left-0 right-0 z-50 py-16 header-nav about-modal js-about-modal"
+                >
+                    <div class="w-full px-[20px] md:px-[30px] lg:px-0 js-about-modal-container">
+                        <div class="container mx-auto">
+                            <div class="flex items-end justify-end">
+                                <span class="text-[#ffffff] text-[32px] font-medium leading-[40px] tracking-[10%]"
+                                    >About us.</span
+                                >
+                            </div>
+                        </div>
+                        <div class="border-b-[1px] border-b-[#F2F3FF] my-4"></div>
+                        <ul class="w-full">
+                            <li class="text-[#34CEBC] hover:bg-[#34CEBC] hover:text-[#02052E] cursor-pointer+">
+                                <div class="container mx-auto text-end">
+                                    <a
+                                        href="/pages/abouts/about.html"
+                                        class="text-[24px] md:text-[32px] lg:text-[46px] font-normal leading-[48.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                                    >
+                                        ABOUT MINTO
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="text-[#34CEBC] hover:bg-[#34CEBC] hover:text-[#02052E] cursor-pointer+">
+                                <div class="container mx-auto text-end">
+                                    <a
+                                        href="/pages/abouts/team.html"
+                                        class="text-[24px] md:text-[32px] lg:text-[46px] font-normal leading-[48.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                                    >
+                                        TEAM
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="text-[#34CEBC] hover:bg-[#34CEBC] hover:text-[#02052E] cursor-pointer+">
+                                <div class="container mx-auto text-end">
+                                    <a
+                                        href="/pages/abouts/news.html"
+                                        class="text-[24px] md:text-[32px] lg:text-[46px] font-normal leading-[48.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                                    >
+                                        NEWS & IDEA
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="text-[#34CEBC] hover:bg-[#34CEBC] hover:text-[#02052E] cursor-pointer+">
+                                <div class="container mx-auto text-end">
+                                    <a
+                                        href="/pages/abouts/carrer.html"
+                                        class="text-[24px] md:text-[32px] lg:text-[46px] font-normal leading-[48.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                                    >
+                                        CARRER
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="text-[#34CEBC] hover:bg-[#34CEBC] hover:text-[#02052E] cursor-pointer+">
+                                <div class="container mx-auto text-end">
+                                    <a
+                                        href="/pages/abouts/artist-brand.html"
+                                        class="text-[24px] md:text-[32px] lg:text-[46px] font-normal leading-[48.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                                    >
+                                        ARTIST & BRAND
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="text-[#34CEBC] hover:bg-[#34CEBC] hover:text-[#02052E] cursor-pointer+">
+                                <div class="container mx-auto text-end">
+                                    <a
+                                        href="/pages/abouts/contact.html"
+                                        class="text-[24px] md:text-[32px] lg:text-[46px] font-normal leading-[48.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                                    >
+                                        CONTACT
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="container mx-auto">
+                            <div
+                                class="bg-[#02052E] cursor-pointer p-[19px] text-[#ffffff] hover:opacity-90 js-about-modal-close"
+                            >
+                                <div class="flex items-center gap-4">
+                                    <span
+                                        class="text-[24px] md:text-[32px] lg:text-[46px] font-medium leading-[40px] tracking-[10%]"
+                                        >Close</span
+                                    >
+                                    <img
+                                        src="../../assets/img/icon/square_arrow_right_white.png"
+                                        alt=""
+                                        class="w-[18px] md:w-[22px] lg:w-[29.34px] h-[27px] md:h-[37px] lg:h-[47px]"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-[#02052E] mt-20 py-5 lg:py-16">
+                <div class="grid grid-cols-1 py-8 gap-[42px]">
+                    <div class="flex gap-[42px]">
+                        <img src="../../assets/img/img-abouts/image_35.png" alt="" />
+                        <img src="../../assets/img/img-abouts/image_39.png" alt="" />
+                        <img src="../../assets/img/img-abouts/image_41.png" alt="" />
+                        <img src="../../assets/img/img-abouts/image_44.png" alt="" />
+                        <img src="../../assets/img/img-abouts/image_38.png" alt="" />
+                        <img src="../../assets/img/img-abouts/image_34.png" alt="" />
+                    </div>
+                    <div class="flex gap-[42px]">
+                        <img src="../../assets/img/img-abouts/image_35_1.png" alt="" />
+                        <img src="../../assets/img/img-abouts/image_36.png" alt="" />
+                        <img src="../../assets/img/img-abouts/image_40.png" alt="" />
+                        <img src="../../assets/img/img-abouts/image_43.png" alt="" />
+                        <img src="../../assets/img/img-abouts/image_44_1.png" alt="" />
+                        <img src="../../assets/img/img-abouts/image_42.png" alt="" />
+                    </div>
+                </div>
+            </div>
+
+            <!-- Our Customer -->
+            <div class="bg-[#02052E] px-5 sm:px-16 lg:px-32 py-5 lg:py-16">
+                <div class="flex items-center justify-center py-8">
+                    <h2 class="text-[#F2F3FF] text-[64px] font-bold leading-[78.02px] text-center">Our Customer</h2>
+                </div>
+                <div class="flex items-center justify-center relative">
+                    <img src="../../assets/img/img-abouts/banner.png" alt="" class="" />
+                    <div class="cursor-pointer hover:opacity-90 absolute left-[-38px]">
+                        <i class="fa-solid fa-circle-chevron-left text-[#F2F3FF]" style="font-size: 2rem"></i>
+                    </div>
+                    <div class="cursor-pointer hover:opacity-90 absolute right-[-38px]">
+                        <i class="fa-solid fa-circle-chevron-right text-[#F2F3FF]" style="font-size: 2rem"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="py-5 lg:py-16">
+                <div class="bg-[#34CEBC] p-[10px]">
+                    <div class="flex gap-[38px]">
+                        <h4 class="text-[#F2F3FF] text-[64px] font-bold leading-[78.02px] text-center">SOUL x Minto</h4>
+                        <h4 class="text-[#F2F3FF] text-[64px] font-bold leading-[78.02px] text-center">SOUL x Minto</h4>
+                        <h4 class="text-[#F2F3FF] text-[64px] font-bold leading-[78.02px] text-center">SOUL x Minto</h4>
+                    </div>
+                </div>
+            </div>
+
+            <!-- brand item -->
+            <div class="px-5 sm:px-16 lg:px-32 py-5 lg:py-16">
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[32px]">
+                    <div
+                        class="bg-[#ffffff] flex flex-col gap-[22px] p-4 rounded border-[1px] border-[#9A9CAC] cursor-pointer js-brand-details"
+                    >
+                        <img src="../../assets/img/img-abouts/Rectangle_38_5.png" alt="" />
+                        <div class="flex flex-col gap-2">
+                            <h4 class="text-[#02052E] text-[24px] font-semibold leading-[33.34px]">
+                                Exposition of Internet
+                            </h4>
+                            <span class="text-[#34CEBC] text-[14px] font-bold leading-[24px]">EVENTPOPUP CAFE</span>
+                        </div>
+                    </div>
+
+                    <div
+                        class="bg-[#ffffff] flex flex-col gap-[22px] p-4 rounded border-[1px] border-[#9A9CAC] cursor-pointer js-brand-details"
+                    >
+                        <img src="../../assets/img/img-abouts/Rectangle_38_6.png" alt="" />
+                        <div class="flex flex-col gap-2">
+                            <h4 class="text-[#02052E] text-[24px] font-semibold leading-[33.34px]">
+                                Reducing Negative Comments on Social Media
+                            </h4>
+                            <span class="text-[#34CEBC] text-[14px] font-bold leading-[24px]">Social Media</span>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-[#ffffff] flex flex-col gap-[22px] p-4 rounded border-[1px] border-[#9A9CAC] cursor-pointer js-brand-details"
+                    >
+                        <img src="../../assets/img/img-abouts/Rectangle_38_7.png" alt="" />
+                        <div class="flex flex-col gap-2">
+                            <h4 class="text-[#02052E] text-[24px] font-semibold leading-[33.34px]">
+                                Character as a Centerpiece of Integrated Campaign
+                            </h4>
+                            <span class="text-[#34CEBC] text-[14px] font-bold leading-[24px]">Integrated Campaign</span>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-[#ffffff] flex flex-col gap-[22px] p-4 rounded border-[1px] border-[#9A9CAC] cursor-pointer js-brand-details"
+                    >
+                        <img src="../../assets/img/img-abouts/Rectangle_38_8.png" alt="" />
+                        <div class="flex flex-col gap-2">
+                            <h4 class="text-[#02052E] text-[24px] font-semibold leading-[33.34px]">
+                                Driving Traffic to Retail Stores
+                            </h4>
+                            <span class="text-[#34CEBC] text-[14px] font-bold leading-[24px]">Shopping Mall Event</span>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-[#ffffff] flex flex-col gap-[22px] p-4 rounded border-[1px] border-[#9A9CAC] cursor-pointer js-brand-details"
+                    >
+                        <img src="../../assets/img/img-abouts/Rectangle_38_9.png" alt="" />
+                        <div class="flex flex-col gap-2">
+                            <h4 class="text-[#02052E] text-[24px] font-semibold leading-[33.34px]">
+                                Giveaways for driving spends on credit cards
+                            </h4>
+                            <span class="text-[#34CEBC] text-[14px] font-bold leading-[24px]"
+                                >POSM/Product package/Giveaway</span
+                            >
+                        </div>
+                    </div>
+                    <div
+                        class="bg-[#ffffff] flex flex-col gap-[22px] p-4 rounded border-[1px] border-[#9A9CAC] cursor-pointer js-brand-details"
+                    >
+                        <img src="../../assets/img/img-abouts/Rectangle_38_10.png" alt="" />
+                        <div class="flex flex-col gap-2">
+                            <h4 class="text-[#02052E] text-[24px] font-semibold leading-[33.34px]">
+                                Siam Center x Usagyuuun POP UP CAFE
+                            </h4>
+                            <span class="text-[#34CEBC] text-[14px] font-bold leading-[24px]">POPUP CAFE</span>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-[#ffffff] flex flex-col gap-[22px] p-4 rounded border-[1px] border-[#9A9CAC] cursor-pointer js-brand-details"
+                    >
+                        <img src="../../assets/img/img-abouts/Rectangle_38_7.png" alt="" />
+                        <div class="flex flex-col gap-2">
+                            <h4 class="text-[#02052E] text-[24px] font-semibold leading-[33.34px]">
+                                Character as a Centerpiece of Integrated Campaign
+                            </h4>
+                            <span class="text-[#34CEBC] text-[14px] font-bold leading-[24px]">Integrated Campaign</span>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-[#ffffff] flex flex-col gap-[22px] p-4 rounded border-[1px] border-[#9A9CAC] cursor-pointer js-brand-details"
+                    >
+                        <img src="../../assets/img/img-abouts/Rectangle_38_5.png" alt="" />
+                        <div class="flex flex-col gap-2">
+                            <h4 class="text-[#02052E] text-[24px] font-semibold leading-[33.34px]">
+                                Exposition of Internet
+                            </h4>
+                            <span class="text-[#34CEBC] text-[14px] font-bold leading-[24px]">EVENTPOPUP CAFE</span>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-[#ffffff] flex flex-col gap-[22px] p-4 rounded border-[1px] border-[#9A9CAC] cursor-pointer js-brand-details"
+                    >
+                        <img src="../../assets/img/img-abouts/Rectangle_38_6.png" alt="" />
+                        <div class="flex flex-col gap-2">
+                            <h4 class="text-[#02052E] text-[24px] font-semibold leading-[33.34px]">
+                                Reducing Negative Comments on Social Media
+                            </h4>
+                            <span class="text-[#34CEBC] text-[14px] font-bold leading-[24px]">Social Media</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Artist detail modal -->
+            <div class="fixed top-0 left-0 right-0 z-50 brand-modal js-brand-modal">
+                <div class="my-10 max-w-[1140px] mx-auto js-brand-modal-container">
+                    <div class="bg-[#ffffff] px-20 py-6">
+                        <div class="flex items-center justify-between">
+                            <span class="text-[#494B62] text-[24px] font-normal leading-[33.6px]">Brand detail</span>
+                            <div class="cursor-pointer hover:opacity-90 js-brand-modal-close">
+                                <i class="fa-regular fa-circle-xmark text-[#494B62]" style="font-size: 2rem"></i>
+                            </div>
+                        </div>
+                        <div class="flex flex-col gap-6 py-12 border-b-[1px] border-b-[#494B62]">
+                            <div class="flex flex-col gap-6">
+                                <h1 class="text-[#02052E] text-[48px] font-bold leading-[56px]">
+                                    Revitalizing the existing brand mascot
+                                </h1>
+                                <div class="flex gap-3">
+                                    <div class="border-r-[#494B62] border-r-[1px] pr-4">
+                                        <span class="text-[#009599] text-[16px] font-semibold leading-[23.1px]"
+                                            >Mascot Branding</span
+                                        >
+                                    </div>
+                                    <div class="border-r-[#494B62] border-r-[1px] pr-4">
+                                        <span class="text-[#494B62] text-[16px] font-semibold leading-[23.1px]"
+                                            >Client:</span
+                                        >
+                                        <span class="text-[#009599] text-[16px] font-semibold leading-[23.1px]"
+                                            >PTT</span
+                                        >
+                                    </div>
+                                    <div class="border-r-[#494B62] border-r-[1px] pr-4">
+                                        <span class="text-[#494B62] text-[16px] font-semibold leading-[23.1px]"
+                                            >Market:</span
+                                        >
+                                        <span class="text-[#009599] text-[16px] font-semibold leading-[23.1px]"
+                                            >Thailand</span
+                                        >
+                                    </div>
+                                    <div class="">
+                                        <span class="text-[#494B62] text-[16px] font-semibold leading-[23.1px]"
+                                            >Character:</span
+                                        >
+                                        <span class="text-[#009599] text-[16px] font-semibold leading-[23.1px]"
+                                            >GODJI</span
+                                        >
+                                    </div>
+                                </div>
+                                <div class="w-full">
+                                    <img src="../../assets/img/img-abouts/banner_1.png" alt="" class="w-full h-full" />
+                                </div>
+                                <p class="text-[#494B62] text-[16px] font-normal leading-[24px]">
+                                    Challenge <br />
+                                    “Godji” had been loved as a corporate mascot for Thailand’s largest energy company
+                                    for over 12 years, however the character began to show fatigue in personality
+                                    settings, brand attributes and visual consistency and needed the revamp.<br />
+                                    Solution Godji was successfully given a brand facelift and new brand guideline to
+                                    fit into modern-day world and to serve as a mascot by everybody for a next decade.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex flex-col gap-8 py-12">
+                            <span class="text-[#02052E] text-[20px] font-semibold leading-[28px]">SHARE</span>
+                            <div class="grid grid-cols-4 w-[280px]">
+                                <a href="" class="relative flex items-center justify-center hover:opacity-90">
+                                    <div class="w-[39.11px] h-[39.11px] bg-[#92E5DB] rotate-45"></div>
+                                    <div class="absolute w-[24.29px] h-[24.29px]">
+                                        <img
+                                            src="../../assets/img/img-abouts/mdi_twitter.png"
+                                            alt=""
+                                            class="w-full h-full"
+                                        />
+                                    </div>
+                                </a>
+                                <a href="" class="relative flex items-center justify-center hover:opacity-90">
+                                    <div class="w-[39.11px] h-[39.11px] bg-[#92E5DB] rotate-45"></div>
+                                    <div class="absolute w-[20px] h-[20px]">
+                                        <img
+                                            src="../../assets/img/img-abouts/bi_linkedin.png"
+                                            alt=""
+                                            class="w-full h-full"
+                                        />
+                                    </div>
+                                </a>
+                                <a href="" class="relative flex items-center justify-center hover:opacity-90">
+                                    <div class="w-[39.11px] h-[39.11px] bg-[#92E5DB] rotate-45"></div>
+                                    <div class="absolute w-[24.44px] h-[24.44px]">
+                                        <img
+                                            src="../../assets/img/img-abouts/uil_facebook.png"
+                                            alt=""
+                                            class="w-full h-full"
+                                        />
+                                    </div>
+                                </a>
+                                <a href="" class="relative flex items-center justify-center hover:opacity-90">
+                                    <div class="w-[39.11px] h-[39.11px] bg-[#92E5DB] rotate-45"></div>
+                                    <div class="absolute w-[24.44px] h-[24.44px]">
+                                        <img src="../../assets/img/img-abouts/Copy.png" alt="" class="w-full h-full" />
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-1">
+                            <div class="text-center px-12">
+                                <span class="text-[#34CEBC] text-[24px] font-normal leading-[33.6px]"
+                                    >Let’s Connect</span
+                                >
+                                <h1 class="text-[#02052E] text-[64px] font-bold leading-[78.02px] my-6">
+                                    Receive our latest <br />
+                                    Newsletter & Updates
+                                </h1>
+                                <p class="text-[#494B62] text-[20px] font-normal leading-[24.38px]">
+                                    If you want to build a brand mascot and a comprehensive marketing plan, leave your
+                                    information below. <br />
+                                    Minto will contact the consultant as soon as possible
+                                </p>
+                            </div>
+                            <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 pt-12 pb-28">
+                                <div class="flex flex-col gap-5">
+                                    <div class="flex items-center justify-center">
+                                        <img src="../../assets/img/img-abouts/Group_1.png" alt="" />
+                                    </div>
+                                    <div class="flex flex-col gap-5">
+                                        <h3 class="text-[#34CEBC] text-[32px] font-bold leading-[40px]">
+                                            Minto (Vietnam) Co., Ltd.
+                                        </h3>
+                                        <div class="flex flex-col gap-5">
+                                            <div class="flex gap-5">
+                                                <img
+                                                    src="../../assets/img/img-abouts/Group_2.png"
+                                                    alt=""
+                                                    class="w-[24px] h-[25.34px]"
+                                                />
+                                                <span class="text-[#02052E] text-[16px] font-normal leading-[24px]"
+                                                    >Ground floor, Thien Son building, 5 Nguyen Gia Thieu, Vo Thi Sau
+                                                    ward, district 3, Ho Chi Minh, Vietnam</span
+                                                >
+                                            </div>
+                                            <div class="flex gap-5">
+                                                <img
+                                                    src="../../assets/img/img-abouts/Group_3.png"
+                                                    alt=""
+                                                    class="w-[24px] h-[23.3px]"
+                                                />
+                                                <span class="text-[#02052E] text-[16px] font-normal leading-[24px]"
+                                                    >84-909-868-915</span
+                                                >
+                                            </div>
+                                            <div class="flex gap-5">
+                                                <img
+                                                    src="../../assets/img/img-abouts/Group_4.png"
+                                                    alt=""
+                                                    class="w-[24px] h-[17.6px]"
+                                                />
+                                                <span class="text-[#02052E] text-[16px] font-normal leading-[24px]"
+                                                    >info_vn@minto-inc.jp</span
+                                                >
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex flex-col justify-end">
+                                    <form class="flex flex-col gap-5">
+                                        <div class="flex flex-col gap-5">
+                                            <label class="text-[#494B62] text-[16px] font-semibold leading-[23.1px]"
+                                                >Your name</label
+                                            >
+                                            <input
+                                                type="text"
+                                                placeholder="Jace..."
+                                                class="bg-[#F2F3FF] text-[#9A9CAC] font-normal text-[16px] leading-[24px] p-[15px] border-[1px] boder-[#9A9CAC] outline-none"
+                                            />
+                                        </div>
+                                        <div class="flex flex-col gap-5">
+                                            <label class="text-[#494B62] text-[16px] font-semibold leading-[23.1px]"
+                                                >Company</label
+                                            >
+                                            <input
+                                                type="text"
+                                                placeholder="Your company"
+                                                class="bg-[#F2F3FF] text-[#9A9CAC] font-normal text-[16px] leading-[24px] p-[15px] border-[1px] boder-[#9A9CAC] outline-none"
+                                            />
+                                        </div>
+                                        <div class="flex flex-col gap-5">
+                                            <label class="text-[#494B62] text-[16px] font-semibold leading-[23.1px]"
+                                                >Email</label
+                                            >
+                                            <input
+                                                type="text"
+                                                placeholder="Enter your mail"
+                                                class="bg-[#F2F3FF] text-[#9A9CAC] font-normal text-[16px] leading-[24px] p-[15px] border-[1px] boder-[#9A9CAC] outline-none"
+                                            />
+                                        </div>
+                                        <button
+                                            class="bg-[#34CEBC] flex items-center justify-center p-4 gap-5 hover:opacity-90"
+                                        >
+                                            <span class="text-[#02052E] text-[16px] font-semibold leading-[19.5px]"
+                                                >Submit</span
+                                            >
+                                            <i class="fa-solid fa-check"></i>
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact -->
+            <div class="grid grid-cols-1 px-5 sm:px-16 lg:px-32 py-5 lg:py-16">
+                <div class="text-center">
+                    <span class="text-[#34CEBC] text-[24px] font-normal leading-[33.6px]">Let’s Connect</span>
+                    <h2 class="text-[#F2F3FF] text-[64px] font-bold leading-[78.02px] text-center my-4">Contact</h2>
+                    <p class="text-[#ffffff] text-[16px] font-normal leading-[24px]">
+                        If you want to build a brand mascot and a comprehensive marketing plan, leave your information
+                        below. <br />
+                        Minto will contact the consultant as soon as possible
+                    </p>
+                </div>
+                <div class="grid grid-cols-1 gap-[86px] lg:grid-cols-2 pt-12">
+                    <div class="flex flex-col justify-end">
+                        <div class="flex flex-col gap-5">
+                            <div class="flex items-center justify-center">
+                                <img src="../../assets/img/img-abouts/Group_5.png" alt="" />
+                            </div>
+                            <div class="flex flex-col gap-5">
+                                <h3 class="text-[#34CEBC] text-[32px] font-bold leading-[40px]">
+                                    Minto (Vietnam) Co., Ltd.
+                                </h3>
+                                <div class="flex flex-col gap-5">
+                                    <div class="flex gap-5">
+                                        <img
+                                            src="../../assets/img/img-abouts/location1.png"
+                                            alt=""
+                                            class="w-[24px] h-[24px]"
+                                        />
+                                        <span class="text-[#ffffff] text-[16px] font-normal leading-[24px]"
+                                            >Ground floor, Thien Son building, 5 Nguyen Gia Thieu, Vo Thi Sau ward,
+                                            district 3, Ho Chi Minh, Vietnam</span
+                                        >
+                                    </div>
+                                    <div class="flex gap-5">
+                                        <img
+                                            src="../../assets/img/img-abouts/call_calling.png"
+                                            alt=""
+                                            class="w-[24px] h-[24px]"
+                                        />
+                                        <span class="text-[#ffffff] text-[16px] font-normal leading-[24px]"
+                                            >84-909-868-915</span
+                                        >
+                                    </div>
+                                    <div class="flex gap-5">
+                                        <img
+                                            src="../../assets/img/img-abouts/email_send.png"
+                                            alt=""
+                                            class="w-[24px] h-[24px]"
+                                        />
+                                        <span class="text-[#ffffff] text-[16px] font-normal leading-[24px]"
+                                            >info_vn@minto-inc.jp</span
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col justify-end">
+                        <form class="flex flex-col gap-5">
+                            <div class="flex flex-col gap-5">
+                                <label class="text-[#F2F3FF] text-[16px] font-semibold leading-[23.1px]"
+                                    >Your name</label
+                                >
+                                <input
+                                    type="text"
+                                    placeholder="Jace..."
+                                    class="bg-[#F2F3FF] text-[#9A9CAC] font-normal text-[16px] leading-[24px] p-[15px] border-[1px] boder-[#9A9CAC] outline-none"
+                                />
+                            </div>
+                            <div class="flex flex-col gap-5">
+                                <label class="text-[#F2F3FF] text-[16px] font-semibold leading-[23.1px]">Company</label>
+                                <input
+                                    type="text"
+                                    placeholder="Your company"
+                                    class="bg-[#F2F3FF] text-[#9A9CAC] font-normal text-[16px] leading-[24px] p-[15px] border-[1px] boder-[#9A9CAC] outline-none"
+                                />
+                            </div>
+                            <div class="flex flex-col gap-5">
+                                <label class="text-[#F2F3FF] text-[16px] font-semibold leading-[23.1px]">Email</label>
+                                <input
+                                    type="text"
+                                    placeholder="Enter your mail"
+                                    class="bg-[#F2F3FF] text-[#9A9CAC] font-normal text-[16px] leading-[24px] p-[15px] border-[1px] boder-[#9A9CAC] outline-none"
+                                />
+                            </div>
+                            <div class="flex flex-col gap-5">
+                                <label class="text-[#F2F3FF] text-[16px] font-semibold leading-[23.1px]"
+                                    >I’m interested in</label
+                                >
+                                <div class="relative flex items-center justify-center">
+                                    <input
+                                        type="text"
+                                        placeholder="Business inquiries"
+                                        class="w-full bg-[#F2F3FF] text-[#9A9CAC] font-normal text-[16px] leading-[24px] p-[15px] border-[1px] boder-[#9A9CAC] outline-none"
+                                    />
+                                    <div class="absolute right-[10px] cursor-pointer">
+                                        <i class="fa-solid fa-chevron-down text-[#9A9CAC]"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-5">
+                                <label class="text-[#F2F3FF] text-[16px] font-semibold leading-[23.1px]">Email</label>
+                                <textarea
+                                    type="text"
+                                    placeholder="Enter your mail"
+                                    class="bg-[#F2F3FF] text-[#9A9CAC] font-normal text-[16px] leading-[24px] p-[15px] border-[1px] boder-[#9A9CAC] outline-none"
+                                    style="height: 176px"
+                                ></textarea>
+                            </div>
+                            <button class="bg-[#34CEBC] flex items-center justify-center p-4 gap-5 hover:opacity-90">
+                                <span class="text-[#02052E] text-[16px] font-semibold leading-[19.5px]">Submit</span>
+                                <i class="fa-solid fa-check"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- footer -->
+            <div class="m-5 sm:m-16 lg:m-32">
+                <div class="flex items-center justify-between max-lg:flex-col">
+                    <ul class="flex gap-[40px] max-sm:gap-6">
+                        <li
+                            class="font-normal text-[24px] max-sm:text-[16px] leading-[33.6px] text-[#ffffff] hover:underline"
+                        >
+                            <a href="">Privacy Policy</a>
+                        </li>
+                        <li
+                            class="font-normal text-[24px] max-sm:text-[16px] leading-[33.6px] text-[#ffffff] hover:underline"
+                        >
+                            <a href="">Cookies</a>
+                        </li>
+                    </ul>
+                    <ul class="flex gap-[40px] max-sm:gap-6">
+                        <li
+                            class="font-normal text-[24px] max-sm:text-[16px] leading-[33.6px] text-[#ffffff] hover:underline"
+                        >
+                            <a href="">Subscribe</a>
+                        </li>
+                        <li
+                            class="font-normal text-[24px] max-sm:text-[16px] leading-[33.6px] text-[#ffffff] hover:underline"
+                        >
+                            <a href="">Connect</a>
+                        </li>
+                        <li
+                            class="font-normal text-[24px] max-sm:text-[16px] leading-[33.6px] text-[#ffffff] hover:underline"
+                        >
+                            <a href="">Work with us</a>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+        <script src="/assets/js/script.js"></script>
+        <script src="/assets/js/brand.js"></script>
+    </body>
+</html>

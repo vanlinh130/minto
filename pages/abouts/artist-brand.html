@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Artist and brand community</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+        <link rel="stylesheet" href="../../assets/fonts/fontawesome-free-6.4.2-web/css/all.css" />
+        <link rel="stylesheet" href="../../assets/css/style.css" />
+        <link rel="stylesheet" href="../../build/style.css" />
+    </head>
+    <body>
+        <div class="">
+            <!-- header -->
+            <header class="w-full fixed top-0 left-0 right-0 z-10 header-nav-top">
+                <div class="container mx-auto">
+                    <div
+                        class="flex items-center max-sm:flex-col justify-between max-sm:gap-1 mt-5 md:mt-6 lg:mt-8 mb-[15px] md:mb-[88px] lg:mb-[205px]"
+                    >
+                        <div class="flex items-center justify-center">
+                            <button
+                                class="py-1 px-4 rounded hover:bg-[#34CEBC] text-[#ffffff] hover:text-[#02052E] js-solution"
+                            >
+                                <span
+                                    class="text-[24px] font-normal leading-[33.6px] cursor-pointer hover:opacity-90 max-sm:text-[16px]"
+                                    >SOLUTION</span
+                                >
+                            </button>
+                        </div>
+                        <div class="flex items-center justify-center cursor-pointer">
+                            <a href="/" class=""><img src="../../../../assets/img/logo.png" /></a>
+                        </div>
+                        <div class="flex items-center justify-center">
+                            <button
+                                class="py-1 px-4 rounded hover:bg-[#34CEBC] text-[#ffffff] hover:text-[#02052E] js-about"
+                            >
+                                <span
+                                    class="text-[24px] font-normal leading-[33.6px] cursor-pointer hover:opacity-90 max-sm:text-[16px]"
+                                    >ABOUT</span
+                                >
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Drop menu v1 -->
+            <div
+                class="bg-[#02052E] min-h-screen w-full fixed top-0 left-0 right-0 z-50 py-16 header-nav solution-modal js-solution-modal active"
+            >
+                <div class="w-full px-[20px] md:px-[30px] lg:px-0 js-solution-modal-container">
+                    <div class="container mx-auto">
+                        <div class="flex items-end justify-start">
+                            <span class="text-[#ffffff] text-[32px] font-medium leading-[40px] tracking-[10%]"
+                                >Solution.</span
+                            >
+                        </div>
+                    </div>
+                    <div class="border-b-[1px] border-b-[#F2F3FF] my-4"></div>
+                    <ul class="w-full">
+                        <li class="text-[#34CEBC] hover:bg-[#34CEBC] hover:text-[#02052E] cursor-pointer">
+                            <div class="container mx-auto">
+                                <a
+                                    href="/pages/solutions/character-marrketing.html"
+                                    class="text-[24px] md:text-[32px] lg:text-[46px] font-normal leading-[48.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                                >
+                                    CHARACTER MARKETTING
+                                </a>
+                            </div>
+                        </li>
+                        <li class="text-[#34CEBC] hover:bg-[#34CEBC] hover:text-[#02052E] cursor-pointer+">
+                            <div class="container mx-auto">
+                                <a
+                                    href="/pages/solutions/character-licensing.html"
+                                    class="text-[24px] md:text-[32px] lg:text-[46px] font-normal leading-[48.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                                >
+                                    CHARACTER LICENSING
+                                </a>
+                            </div>
+                        </li>
+                        <li class="text-[#34CEBC] hover:bg-[#34CEBC] hover:text-[#02052E] cursor-pointer+">
+                            <div class="container mx-auto">
+                                <a
+                                    href="/pages/solutions/creative-branding.html"
+                                    class="text-[24px] md:text-[32px] lg:text-[46px] font-normal leading-[48.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                                >
+                                    CREATIVE & BRANDING
+                                </a>
+                            </div>
+                        </li>
+                        <li class="text-[#34CEBC] hover:bg-[#34CEBC] hover:text-[#02052E] cursor-pointer+">
+                            <div class="container mx-auto">
+                                <a
+                                    href="/pages/solutions/digital-stagery.html"
+                                    class="text-[24px] md:text-[32px] lg:text-[46px] font-normal leading-[48.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                                >
+                                    DIGITAL & STRATEGY
+                                </a>
+                            </div>
+                        </li>
+                        <li class="text-[#34CEBC] hover:bg-[#34CEBC] hover:text-[#02052E] cursor-pointer+">
+                            <div class="container mx-auto">
+                                <a
+                                    href="/pages/solutions/event-production.html"
+                                    class="text-[24px] md:text-[32px] lg:text-[46px] font-normal leading-[48.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                                >
+                                    EVENT & PRODUCTION
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="container mx-auto">
+                        <div
+                            class="bg-[#02052E] text-[#ffffff] cursor-pointer p-[19px] float-right hover:opacity-90 js-solution-modal-close"
+                        >
+                            <div class="flex items-center gap-4">
+                                <img
+                                    src="../../../../assets/img/icon/square_arrow_left_white.png"
+                                    alt=""
+                                    class="w-[18px] md:w-[22px] lg:w-[29.34px] h-[27px] md:h-[37px] lg:h-[47px]"
+                                />
+                                <span
+                                    class="text-[24px] md:text-[32px] lg:text-[46px] font-medium leading-[40px] tracking-[10%]"
+                                    >Close</span
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Drop menu v2 -->
+            <div
+                class="bg-[#02052E] w-full min-h-screen fixed top-0 left-0 right-0 z-50 py-16 header-nav about-modal js-about-modal"
+            >
+                <div class="w-full px-[20px] md:px-[30px] lg:px-0 js-about-modal-container">
+                    <div class="container mx-auto">
+                        <div class="flex items-end justify-end">
+                            <span class="text-[#ffffff] text-[32px] font-medium leading-[40px] tracking-[10%]"
+                                >About us.</span
+                            >
+                        </div>
+                    </div>
+                    <div class="border-b-[1px] border-b-[#F2F3FF] my-4"></div>
+                    <ul class="w-full">
+                        <li class="text-[#34CEBC] hover:bg-[#34CEBC] hover:text-[#02052E] cursor-pointer+">
+                            <div class="container mx-auto text-end">
+                                <a
+                                    href="/pages/abouts/about.html"
+                                    class="text-[24px] md:text-[32px] lg:text-[46px] font-normal leading-[48.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                                >
+                                    ABOUT MINTO
+                                </a>
+                            </div>
+                        </li>
+                        <li class="text-[#34CEBC] hover:bg-[#34CEBC] hover:text-[#02052E] cursor-pointer+">
+                            <div class="container mx-auto text-end">
+                                <a
+                                    href="/pages/abouts/team.html"
+                                    class="text-[24px] md:text-[32px] lg:text-[46px] font-normal leading-[48.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                                >
+                                    TEAM
+                                </a>
+                            </div>
+                        </li>
+                        <li class="text-[#34CEBC] hover:bg-[#34CEBC] hover:text-[#02052E] cursor-pointer+">
+                            <div class="container mx-auto text-end">
+                                <a
+                                    href="/pages/abouts/news.html"
+                                    class="text-[24px] md:text-[32px] lg:text-[46px] font-normal leading-[48.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                                >
+                                    NEWS & IDEA
+                                </a>
+                            </div>
+                        </li>
+                        <li class="text-[#34CEBC] hover:bg-[#34CEBC] hover:text-[#02052E] cursor-pointer+">
+                            <div class="container mx-auto text-end">
+                                <a
+                                    href="/pages/abouts/carrer.html"
+                                    class="text-[24px] md:text-[32px] lg:text-[46px] font-normal leading-[48.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                                >
+                                    CARRER
+                                </a>
+                            </div>
+                        </li>
+                        <li class="text-[#34CEBC] hover:bg-[#34CEBC] hover:text-[#02052E] cursor-pointer+">
+                            <div class="container mx-auto text-end">
+                                <a
+                                    href="/pages/abouts/artist-brand.html"
+                                    class="text-[24px] md:text-[32px] lg:text-[46px] font-normal leading-[48.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                                >
+                                    ARTIST & BRAND
+                                </a>
+                            </div>
+                        </li>
+                        <li class="text-[#34CEBC] hover:bg-[#34CEBC] hover:text-[#02052E] cursor-pointer+">
+                            <div class="container mx-auto text-end">
+                                <a
+                                    href="/pages/abouts/contact.html"
+                                    class="text-[24px] md:text-[32px] lg:text-[46px] font-normal leading-[48.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                                >
+                                    CONTACT
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="container mx-auto">
+                        <div
+                            class="bg-[#02052E] cursor-pointer p-[19px] text-[#ffffff] hover:opacity-90 js-about-modal-close"
+                        >
+                            <div class="flex items-center gap-4">
+                                <span
+                                    class="text-[24px] md:text-[32px] lg:text-[46px] font-medium leading-[40px] tracking-[10%]"
+                                    >Close</span
+                                >
+                                <img
+                                    src="../../../../assets/img/icon/square_arrow_right_white.png"
+                                    alt=""
+                                    class="w-[18px] md:w-[22px] lg:w-[29.34px] h-[27px] md:h-[37px] lg:h-[47px]"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mx-auto mt-20 py-5 lg:py-16 px-5 md:px-5 lg:px-0">
+            <div class="grid grid-cols-1 md:grid-col-1 lg:grid-cols-2 gap-5">
+                <div class="">
+                    <h2
+                        class="text-[#ffffff] text-[32px] md:text-[48px] lg:text-[64px] font-bold leading-[38.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                    >
+                        Minto Mission
+                    </h2>
+                    <p
+                        class="text-[24px] max-sm:text-[16px] text-[#ffffff] font-normal leading-[33.6px] max-sm:leading-[22.6px] my-4 md:my-8 lg:my-8"
+                    >
+                        At Minto, we believe in the power of artistic expression and the transformative impact it can
+                        have. That's why we have created an artist community dedicated to connecting local artists with
+                        brands in a meaningful and collaborative way. <br />
+                        Together, let's celebrate the power of artistic expression and reimagine what's possible.
+                    </p>
+                </div>
+                <div class="">
+                    <img src="../../assets/img/img-abouts/image_20.png" alt="" class="w-full h-full rounded-md" />
+                </div>
+            </div>
+        </div>
+
+        <div class="flex gap-4 py-4 container mx-auto">
+            <a href="/pages/abouts/artist.html" class="py-1 px-4 rounded bg-[#34CEBC] hover:text-[#02052E] js-solution">
+                <span class="text-[24px] font-normal leading-[33.6px] cursor-pointer hover:opacity-90">Artist</span>
+            </a>
+            <a href="/pages/abouts/brand.html" class="py-1 px-4 rounded bg-[#34CEBC] hover:text-[#02052E] js-solution">
+                <span class="text-[24px] font-normal leading-[33.6px] cursor-pointer hover:opacity-90">Brand</span>
+            </a>
+        </div>
+
+        <div class="bg-[#ffffff]">
+            <div class="container mx-auto py-[40px] md:py-[40px] lg:py-[60px]">
+                <div class="grid grid-rows-1 gap-5 px-5 md:px-5 lg:px-0">
+                    <div class="flex justify-between items-center max-sm:flex-col-reverse gap-5 md:gap-20 lg:gap-40">
+                        <div class="flex flex-col gap-4">
+                            <div class="border-l-[#34CEBC] border-l-[6px] px-3">
+                                <h4 class="text-[24px] md:text-[30px] lg:text-[32px] font-bold leading-[40px]">
+                                    A VIBRANT ECOSYSTEM
+                                </h4>
+                            </div>
+                            <p class="text-[16px] lg:text-[20px] font-normal leading-[24.38px]">
+                                Our mission is to foster a vibrant ecosystem where artists and brands come together to
+                                unleash their collective creativity. We strive to create opportunities for artists to
+                                showcase their talent, expand their reach, and collaborate with like-minded individuals
+                                and brands that share their vision.
+                            </p>
+                        </div>
+                        <div class="relative">
+                            <div class="w-[208px] h-[208px]">
+                                <img src="../../assets/img/img-abouts/image_11_1_2.png" alt="" class="w-full h-full" />
+                            </div>
+                            <div class="absolute top-0">
+                                <img src="../../assets/img/img-abouts/image_11_1.png" alt="" class="w-full h-full" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex justify-between items-center max-sm:flex-col gap-5 md:gap-20 lg:gap-40">
+                        <img src="../../assets/img/img-abouts/image_11_2.png" alt="" class="w-[217px] h-[212px]" />
+
+                        <div class="flex flex-col gap-4">
+                            <div class="border-l-[#34CEBC] border-l-[6px] px-3">
+                                <h4 class="text-[24px] md:text-[30px] lg:text-[32px] font-bold leading-[40px]">
+                                    THE BEST OF BOTH WORLDS
+                                </h4>
+                            </div>
+                            <p class="text-[16px] lg:text-[20px] font-normal leading-[24.38px]">
+                                Through our artist community, we aim to bridge the gap between artists and brands. We
+                                believe that collaboration between these two worlds can spark innovation, promote
+                                cultural diversity, and ignite positive change. By carefully curating connections and
+                                facilitating collaborations, we facilitate the creation of unique and compelling brand
+                                experiences that resonate with audiences on a deeper level.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="flex justify-between items-center max-sm:flex-col-reverse gap-5 md:gap-20 lg:gap-40">
+                        <div class="flex flex-col gap-4">
+                            <div class="border-l-[#34CEBC] border-l-[6px] px-3">
+                                <h4 class="text-[24px] md:text-[30px] lg:text-[32px] font-bold leading-[40px]">
+                                    AN EXCLUSIVE COMMUNITY
+                                </h4>
+                            </div>
+                            <p class="text-[16px] lg:text-[20px] font-normal leading-[24.38px]">
+                                Our mission extends beyond simply connecting artists and brands. We strive to foster a
+                                supportive and inclusive community where artists can thrive, grow, and be recognized for
+                                their contributions. We provide resources, workshops, and networking opportunities to
+                                empower artists and equip them with the tools they need to succeed.
+                            </p>
+                        </div>
+                        <div class="relative">
+                            <div class="w-[208px] h-[208px]">
+                                <img src="../../assets/img/img-abouts/image_11_1_2.png" alt="" class="w-full h-full" />
+                            </div>
+                            <div class="absolute top-0">
+                                <img src="../../assets/img/img-abouts/image_11_3.png" alt="" class="w-full h-full" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex justify-between items-center max-sm:flex-col gap-5 md:gap-20 lg:gap-40">
+                        <img src="../../assets/img/img-abouts/image_11_4.png" alt="" class="w-[235px] h-[209px]" />
+                        <div class="flex flex-col gap-4">
+                            <div class="border-l-[#34CEBC] border-l-[6px] px-3">
+                                <h4 class="text-[24px] md:text-[30px] lg:text-[32px] font-bold leading-[40px]">
+                                    A NEW WAY TO STORYTELL
+                                </h4>
+                            </div>
+                            <p class="text-[16px] lg:text-[20px] font-normal leading-[24.38px]">
+                                We understand that artists bring a distinctive perspective and a fresh, innovative
+                                approach to brand storytelling. By connecting them with brands, we provide a platform
+                                for artists to showcase their work to a broader audience while offering brands the
+                                opportunity to infuse their campaigns with originality and artistic flair.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Artist Profile -->
+        <div class="container mx-auto">
+            <div class="px-5 md:px-5 lg:px-0 py-5 lg:py-16">
+                <div class="flex items-center justify-center py-8">
+                    <h2
+                        class="text-[#ffffff] text-[32px] md:text-[48px] lg:text-[64px] font-bold leading-[38.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                    >
+                        Artist Profile
+                    </h2>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[32px] py-8">
+                    <div class="bg-[#ffffff] flex flex-col gap-[22px] p-4 rounded border-[1px] border-[#9A9CAC]">
+                        <img src="../../assets/img/img-abouts/Rectangle_38.png" alt="" />
+                        <div class="flex flex-col gap-2">
+                            <h4 class="text-[#02052E] text-[24px] font-semibold leading-[33.34px]">Adam Lavis</h4>
+                            <span class="text-[#34CEBC] text-[14px] font-bold leading-[24px]">Character Artist</span>
+                        </div>
+                    </div>
+                    <div class="bg-[#ffffff] flex flex-col gap-[22px] p-4 rounded border-[1px] border-[#9A9CAC]">
+                        <img src="../../assets/img/img-abouts/Rectangle_38_1.png" alt="" />
+                        <div class="flex flex-col gap-2">
+                            <h4 class="text-[#02052E] text-[24px] font-semibold leading-[33.34px]">Sansa Melona</h4>
+                            <span class="text-[#34CEBC] text-[14px] font-bold leading-[24px]">Eviroment Artist</span>
+                        </div>
+                    </div>
+                    <div class="bg-[#ffffff] flex flex-col gap-[22px] p-4 rounded border-[1px] border-[#9A9CAC]">
+                        <img src="../../assets/img/img-abouts/Rectangle_38_2.png" alt="" />
+                        <div class="flex flex-col gap-2">
+                            <h4 class="text-[#02052E] text-[24px] font-semibold leading-[33.34px]">Do Uyen Pham</h4>
+                            <span class="text-[#34CEBC] text-[14px] font-bold leading-[24px]">Character Artist</span>
+                        </div>
+                    </div>
+                    <div class="bg-[#ffffff] flex flex-col gap-[22px] p-4 rounded border-[1px] border-[#9A9CAC]">
+                        <img src="../../assets/img/img-abouts/Rectangle_38_3.png" alt="" />
+                        <div class="flex flex-col gap-2">
+                            <h4 class="text-[#02052E] text-[24px] font-semibold leading-[33.34px]">Sansa Melona</h4>
+                            <span class="text-[#34CEBC] text-[14px] font-bold leading-[24px]">Environment Artist</span>
+                        </div>
+                    </div>
+                    <div class="bg-[#ffffff] flex flex-col gap-[22px] p-4 rounded border-[1px] border-[#9A9CAC]">
+                        <img src="../../assets/img/img-abouts/Rectangle_38.png" alt="" />
+                        <div class="flex flex-col gap-2">
+                            <h4 class="text-[#02052E] text-[24px] font-semibold leading-[33.34px]">Adam Lavis</h4>
+                            <span class="text-[#34CEBC] text-[14px] font-bold leading-[24px]">Character Artist</span>
+                        </div>
+                    </div>
+                    <div class="bg-[#ffffff] flex flex-col gap-[22px] p-4 rounded border-[1px] border-[#9A9CAC]">
+                        <img src="../../assets/img/img-abouts/Rectangle_38_2.png" alt="" />
+                        <div class="flex flex-col gap-2">
+                            <h4 class="text-[#02052E] text-[24px] font-semibold leading-[33.34px]">Do Uyen Pham</h4>
+                            <span class="text-[#34CEBC] text-[14px] font-bold leading-[24px]">Character Artist</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full flex items-center justify-center py-6">
+                    <button class="bg-[#34CEBC] flex items-center justify-between p-4 gap-5 hover:opacity-90">
+                        <span class="text-[#02052E] text-[16px] font-semibold leading-[19.5px]"
+                            >Discover More Artist</span
+                        >
+                        <i class="fa-solid fa-check"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Our Customer -->
+        <div class="mx-auto">
+            <div class="py-5 lg:py-16 hidden md:hidden max-lg:block">
+                <div class="flex items-center justify-center pb-8">
+                    <h2 class="text-[#F2F3FF] text-[64px] font-bold leading-[78.02px] text-center">Our Customer</h2>
+                </div>
+                <div class="grid grid-cols-1 py-8 gap-[42px]">
+                    <div class="flex items-center justify-center gap-[42px]">
+                        <img src="../../assets/img/img-abouts/image_35.png" alt="" class="" />
+                        <img src="../../assets/img/img-abouts/image_39.png" alt="" class="" />
+                        <img src="../../assets/img/img-abouts/image_41.png" alt="" class="" />
+                        <img src="../../assets/img/img-abouts/image_44.png" alt="" class="" />
+                        <img src="../../assets/img/img-abouts/image_38.png" alt="" class="" />
+                        <img src="../../assets/img/img-abouts/image_34.png" alt="" class="" />
+                    </div>
+                    <div class="flex items-center justify-center gap-[42px]">
+                        <img src="../../assets/img/img-abouts/image_35_1.png" alt="" />
+                        <img src="../../assets/img/img-abouts/image_36.png" alt="" />
+                        <img src="../../assets/img/img-abouts/image_40.png" alt="" />
+                        <img src="../../assets/img/img-abouts/image_43.png" alt="" />
+                        <img src="../../assets/img/img-abouts/image_44_1.png" alt="" />
+                        <img src="../../assets/img/img-abouts/image_42.png" alt="" />
+                    </div>
+                </div>
+                <div class="w-full flex items-center justify-center py-6">
+                    <button class="bg-[#34CEBC] flex items-center justify-between p-4 gap-5 hover:opacity-90">
+                        <span class="text-[#02052E] text-[16px] font-semibold leading-[19.5px]"
+                            >Discover Our Customer</span
+                        >
+                        <i class="fa-solid fa-check"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Join Our Community -->
+        <div class="container mx-auto px-5 lg:px-0 py-5 lg:py-16">
+            <div class="flex items-center justify-center pb-8">
+                <h2
+                    class="text-[#ffffff] text-[32px] md:text-[48px] lg:text-[64px] font-bold leading-[38.02px] md:leading-[58.02px] lg:leading-[78.02px]"
+                >
+                    Join Our Community
+                </h2>
+            </div>
+            <form class="max-w-[752px] flex flex-col gap-4 pt-8">
+                <div class="w-full">
+                    <h4 class="text-[#ffffff] text-[24px] md:text-[30px] lg:text-[32px] font-bold leading-[40px]">
+                        Personal information
+                    </h4>
+                    <input
+                        type="text"
+                        placeholder="Name"
+                        class="w-full bg-transparent outline-none text-[#9A9CAC] text-[16px] lg:text-[20px] font-normal py-6 px-[10px] border-b-[1px] border-b-[#9A9CAC]"
+                    />
+                    <input
+                        type="email"
+                        placeholder="Email"
+                        class="w-full bg-transparent outline-none text-[#9A9CAC] text-[16px] lg:text-[20px] font-normal py-6 px-[10px] border-b-[1px] border-b-[#9A9CAC]"
+                    />
+                    <input
+                        type="number"
+                        placeholder="Phone number"
+                        class="w-full bg-transparent outline-none text-[#9A9CAC] text-[16px] lg:text-[20px] font-normal py-6 px-[10px] border-b-[1px] border-b-[#9A9CAC]"
+                    />
+                    <input
+                        type="text"
+                        placeholder="Address"
+                        class="w-full bg-transparent outline-none text-[#9A9CAC] text-[16px] lg:text-[20px] font-normal py-6 px-[10px] border-b-[1px] border-b-[#9A9CAC]"
+                    />
+                </div>
+                <div class="w-full">
+                    <h4 class="text-[#ffffff] text-[24px] md:text-[30px] lg:text-[32px] font-bold leading-[40px]">
+                        Artist Profile
+                    </h4>
+                    <input
+                        type="text"
+                        placeholder="Artistic Discipline ( painting, sculpture...)"
+                        class="w-full bg-transparent outline-none text-[#9A9CAC] text-[16px] lg:text-[20px] font-normal py-6 px-[10px] border-b-[1px] border-b-[#9A9CAC]"
+                    />
+                    <input
+                        type="text"
+                        placeholder="Brief Bio"
+                        class="w-full bg-transparent outline-none text-[#9A9CAC] text-[16px] lg:text-[20px] font-normal py-6 px-[10px] border-b-[1px] border-b-[#9A9CAC]"
+                    />
+                    <input
+                        type="text"
+                        placeholder="Social Media Handles/Website (if applicable)"
+                        class="w-full bg-transparent outline-none text-[#9A9CAC] text-[16px] lg:text-[20px] font-normal py-6 px-[10px] border-b-[1px] border-b-[#9A9CAC]"
+                    />
+                </div>
+                <div class="w-full">
+                    <h4 class="text-[#ffffff] text-[24px] md:text-[30px] lg:text-[32px] font-bold leading-[40px]">
+                        Portfolio submission
+                    </h4>
+                    <div
+                        class="w-full flex items-center justify-between py-6 px-[10px] border-b-[1px] border-b-[#9A9CAC]"
+                    >
+                        <span class="text-[#9A9CAC] text-[16px] lg:text-[20px] font-normal"
+                            >Examples of Your Work (Images or Portfolio PDF)</span
+                        >
+                        <div class="">
+                            <label for="upload" class="flex gap-3 cursor-pointer">
+                                <span class="text-[#9A9CAC] text-[16px] lg:text-[20px]">Drag/Upload</span>
+                                <i class="fa-solid fa-upload w-[32px] h-[32px] text-[#9A9CAC]"></i>
+                            </label>
+                            <input type="file" id="upload" style="display: none" />
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full">
+                    <h4 class="text-[#ffffff] text-[24px] md:text-[30px] lg:text-[32px] font-bold leading-[40px]">
+                        Personal information
+                    </h4>
+                    <div
+                        class="w-full flex items-center justify-between py-6 px-[10px] border-b-[1px] border-b-[#9A9CAC]"
+                    >
+                        <span class="text-[#9A9CAC] text-[16px] lg:text-[20px] font-normal"
+                            >Examples of Your Work (Images or Portfolio PDF)</span
+                        >
+                        <div class="flex gap-5">
+                            <div class="flex items-center gap-2">
+                                <input type="radio" class="" checked />
+                                <span class="text-[#F2F3FF] text-[14px] lg:text-[16px] font-semibold leading-[23.1px]"
+                                    >Yes</span
+                                >
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <input type="radio" class="" />
+                                <span class="text-[#F2F3FF] text-[14px] lg:text-[16px] font-semibold leading-[23.1px]"
+                                    >No</span
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="w-full flex items-center justify-between py-6 px-[10px] border-b-[1px] border-b-[#9A9CAC]"
+                    >
+                        <span class="text-[#9A9CAC] text-[16px] lg:text-[20px] font-normal"
+                            >What types of brands or projects are you most interested in collaborating with?</span
+                        >
+                    </div>
+                </div>
+                <div class="w-full bg-transparent outline-none py-6 px-[10px]">
+                    <div class="flex gap-4 lg:gap-7">
+                        <div class="flex items-start justify-start">
+                            <input type="checkbox" />
+                        </div>
+                        <p class="text-[#9A9CAC] text-[12px] lg:text-[14px] font-normal">
+                            - By checking this box, I confirm that the information provided is accurate and complete.<br />
+                            - I consent to the collection and processing of my personal data for the purpose of joining
+                            the artist community and potential collaborations.
+                        </p>
+                    </div>
+                </div>
+            </form>
+            <div class="py-6 flex items-center max-sm:justify-center">
+                <button class="bg-[#34CEBC] flex items-center justify-between p-4 gap-5 hover:opacity-90">
+                    <span class="text-[#02052E] text-[16px] font-semibold leading-[19.5px]">Discover Our Customer</span>
+                    <i class="fa-solid fa-check"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <div class="m-5 sm:m-16 lg:m-32">
+            <div class="flex items-center justify-between max-lg:flex-col">
+                <ul class="flex gap-[40px] max-sm:gap-6">
+                    <li
+                        class="font-normal text-[24px] max-sm:text-[16px] leading-[33.6px] text-[#ffffff] hover:underline"
+                    >
+                        <a href="">Privacy Policy</a>
+                    </li>
+                    <li
+                        class="font-normal text-[24px] max-sm:text-[16px] leading-[33.6px] text-[#ffffff] hover:underline"
+                    >
+                        <a href="">Cookies</a>
+                    </li>
+                </ul>
+                <ul class="flex gap-[40px] max-sm:gap-6">
+                    <li
+                        class="font-normal text-[24px] max-sm:text-[16px] leading-[33.6px] text-[#ffffff] hover:underline"
+                    >
+                        <a href="">Subscribe</a>
+                    </li>
+                    <li
+                        class="font-normal text-[24px] max-sm:text-[16px] leading-[33.6px] text-[#ffffff] hover:underline"
+                    >
+                        <a href="">Connect</a>
+                    </li>
+                    <li
+                        class="font-normal text-[24px] max-sm:text-[16px] leading-[33.6px] text-[#ffffff] hover:underline"
+                    >
+                        <a href="">Work with us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <script src="/assets/js/script.js"></script>
+    </body>
+</html>
